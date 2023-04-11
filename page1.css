@@ -1,0 +1,148 @@
+body{
+    background-color: white;
+}
+
+h1,p,button{
+
+    font-family: 'Noto Sans Miao', sans-serif;
+    
+
+}
+
+img{
+    width:300px;
+}
+
+.logoBlack{
+    padding-top: 0%;
+    display: block;
+    margin-right: 100px;
+    border-right: 100px;
+    margin-top: 3%;
+}
+
+.blackLogo1{
+    float: left;
+    width: 4.5%;
+    
+}
+.BTed1{
+    font-size: 160%;
+    float:left;
+    color: #b40060;
+}
+.R1{
+    padding-top:2.4%;
+    padding-left:0.21%;
+    float: left;
+    width: 0.9%;
+}
+
+button{
+    
+background-color:white;
+    color: #b40060;
+    margin: 0px;
+    padding-left: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 30px;
+    text-align: center;
+    border-width: 3px;
+    font-size: 15px;
+    border-radius: 100px 0px;
+    border-color: #b40060;
+    border-style:solid;
+    font-weight: 700;
+
+}
+
+.pinkButton1,.pinkButton12{
+    background-color:#b40060;
+    color: #ffffff;
+}
+
+.pinkButton1{
+    padding-left:40px ;
+    padding-right: 40px;
+}
+
+.buttons1{
+    display: block;
+    padding-left: 69%;
+}
+
+.midText1{
+    padding-top: 5%;
+    display:inline-block;
+    align-self: left;
+    width: 50%;
+    border-right: 0%;
+}
+
+.im1{
+    font-weight: 1000;
+    font-size: 200%;
+    color:#b40060;
+    margin-bottom: 0%;
+}
+
+.AH1{
+    width: 100%;
+    margin-top: 0%;
+    font-size: 680%;
+    font-weight: 900;
+    padding-left: 4%;
+    margin-bottom: 0%;
+
+}
+
+.uI1{
+    font-weight: 900;
+    margin-top:0%;
+    margin-bottom: 2%;
+    width: 100%;
+    margin-top: 0%;
+    font-size: 300%;
+    font-weight: 900;
+    padding-left: 17%;
+}
+
+.slogen1{
+    margin-top:10%;
+    margin-bottom: 9%;
+    width: 100%;
+    margin-top: 0%;
+    font-size: 120%;
+    font-weight: 900;
+    padding-left: 18%;
+    color:#ad005c;
+}
+
+.pinkButton12{
+    margin-left: 35%;
+}
+
+.ID1{
+    width:35%;
+    float:right;
+}
+
+.Page1{
+    display:inline-block;
+}
+/*Page 1 completed*/
+/*Starting Page No 2*/
+
+.title2{
+    font-size: 260%;
+    padding-left:26.2%;
+}
+
+.description2{
+    font-size: 120%;
+    display:block;
+    width:45%;
+    padding-left:7%;
+}
+
