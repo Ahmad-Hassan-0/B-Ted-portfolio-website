@@ -57,7 +57,7 @@ background-color:white;
 
 }
 
-.pinkButton1,.pinkButton12{
+.pinkButton1,.pinkButton12,.pinkButton23{
     background-color:#b40060;
     color: #ffffff;
 }
@@ -110,7 +110,7 @@ background-color:white;
 
 .slogen1{
     margin-top:10%;
-    margin-bottom: 9%;
+    margin-bottom: 10%;
     width: 100%;
     margin-top: 0%;
     font-size: 120%;
@@ -135,14 +135,52 @@ background-color:white;
 /*Starting Page No 2*/
 
 .title2{
+    display: inline-block;
+    color: white;
     font-size: 260%;
-    padding-left:26.2%;
+    padding-left:33%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    padding-top: 18%;
 }
 
 .description2{
+    display: inline-block;
+    color: white;
     font-size: 120%;
-    display:block;
-    width:45%;
-    padding-left:7%;
+    width:60%;
+    padding-left:11%;
+    margin-bottom: 8%;
+    text-align: justify ;
 }
+
+.pinkButton23{
+    display: inline-block;
+    margin-left:36%;
+}
+
+.Page2{
+    border-color: black;
+    height:900px;
+    background-color: black;
+    background-position: 0%;
+    background-origin:border-box ;
+    background-position-x: center ;
+    bottom: 500%;
+}
+
+.halfLogo2{
+    margin-top: 7%;
+    width: 20%;
+    float:right;
+
+}
+
+.box2{
+    display:inline-block;
+    width: 77%;
+}
+
+/*Page 3 Starting*/
+
 
