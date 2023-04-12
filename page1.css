@@ -120,7 +120,7 @@ background-color:white;
 }
 
 .pinkButton12{
-    margin-left: 35%;
+    margin-left: 38%;
 }
 
 .ID1{
@@ -161,7 +161,7 @@ background-color:white;
 
 .Page2{
     border-color: black;
-    height:900px;
+    padding-bottom: 11%;
     background-color: black;
     background-position: 0%;
     background-origin:border-box ;
@@ -183,4 +183,44 @@ background-color:white;
 
 /*Page 3 Starting*/
 
+.title31{
+    display: inline-block;
+    font-size: 220%;
+    padding-left:21%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    padding-top: 10%;
+}
+
+.alnoor3,.PGC3,.air3{
+    display:inline-block;
+    height:30%;
+    width:20%;
+}
+
+.alnoorLogo3,.PGCLogo3,.airLogo3{
+    width:50%;
+}
+
+.Page3{
+    padding-bottom: 11%;
+    background-position: 0%;
+    background-origin:border-box ;
+    background-position-x: center ;
+    bottom: 500%;
+}
+
+.Page4{
+    border-color: black;
+    padding-bottom: 11%;
+    background-color: black;
+    background-position: 0%;
+    background-origin:border-box ;
+    background-position-x: center ;
+    bottom: 500%;
+}
+
+.alnoorText3,.PGCText3,.airText3{
+    font-weight: 900;
+}
 
