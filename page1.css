@@ -18,7 +18,7 @@ img{
     display: block;
     margin-right: 100px;
     border-right: 100px;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .blackLogo1{
@@ -196,11 +196,15 @@ background-color:white;
     display:inline-block;
     height:30%;
     width:20%;
+    align-items: center;
+    align-content: center;
 }
 
 .alnoorLogo3,.PGCLogo3,.airLogo3{
     width:50%;
+    margin-left: 25%;
 }
+
 
 .Page3{
     padding-bottom: 11%;
@@ -222,5 +226,10 @@ background-color:white;
 
 .alnoorText3,.PGCText3,.airText3{
     font-weight: 900;
+    text-align: center;
 }
 
+.left3{
+    margin-top: 30%;
+    margin-left: 20%;
+}
