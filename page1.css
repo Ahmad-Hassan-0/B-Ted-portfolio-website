@@ -1,14 +1,13 @@
 body{
     background-color: white;
 }
-h1,p,button,li{
+h1,p,button,li,h3{
 
     font-family: 'Noto Sans Miao', sans-serif;
-    
 
 }
 img{
-    width:300px;
+    width:80px;
 }
 .logoBlack{
     padding-top: 0%;
@@ -200,15 +199,7 @@ button:hover{
     background-position-x: center ;
     bottom: 500%;
 }
-.Page4{
-    border-color: black;
-    padding-bottom: 11%;
-    background-color: black;
-    background-position: 0%;
-    background-origin:border-box ;
-    background-position-x: center ;
-    bottom: 500%;
-}
+
 .alnoorText3,.PGCText3,.airText3{
     font-weight: 900;
     text-align: center;
@@ -269,3 +260,37 @@ button:hover{
 
 
 /*Page 4 Start*/
+
+.Page4{
+
+    border-color: black;
+    padding-bottom: 11%;
+    background-image: url("PinkWallpaper.png");
+    background-position: 0%;
+    background-origin:border-box ;
+    background-position-x: center ;
+    bottom: 500%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:920px;
+    background-position: top;
+
+}
+
+.skills4,.title4,.title42{
+    color:white;
+}
+
+.title4{
+    margin-left:90%;
+    font-size:200%
+}
+
+skills4{
+    
+}
+
+
+
+
+
