@@ -262,7 +262,6 @@ button:hover{
 /*Page 4 Start*/
 
 .Page4{
-
     border-color: black;
     padding-bottom: 11%;
     background-image: url("PinkWallpaper.png");
@@ -282,13 +281,21 @@ button:hover{
 }
 
 .title4{
-    margin-left:90%;
-    font-size:200%
+    display:inline-block;
+    padding-left:8%;
+    font-size:200%;
+    padding-top: 5%;
 }
 
-skills4{
-    
+.skills4{
+
+    padding-left: 7%;
+    font-size: 100%;
+    line-height: 200%;
+    font-weight: 700;
 }
+
+
 
 
 
