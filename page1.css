@@ -2,12 +2,11 @@ body{
     background-color: white;
 }
 h1,p,button,li,h3{
-
     font-family: 'Noto Sans Miao', sans-serif;
-
 }
 img{
     width:80px;
+
 }
 .logoBlack{
     padding-top: 0%;
@@ -25,6 +24,7 @@ img{
     font-size: 160%;
     float:left;
     color: #b40060;
+    margin-top: 1.2%;
 }
 .R1{
     padding-top:2.4%;
@@ -59,7 +59,7 @@ button:hover{
         transition: 600ms;
     
 }
-.pinkButton1,.pinkButton12,.pinkButton23{
+.pinkButton1,.pinkButton12,.pinkButton23,.pinkButton6,.pinkButton62{
     background-color:#b40060;
     color: #ffffff;
 }
@@ -608,31 +608,130 @@ button:hover{
 .Page5{
     border-color: rgb(255, 255, 255);
     background-color: white;
-    height: 1000px;
+    height: 835px;
     background-image: url("WhiteArt1.png");
     background-position: 0%;
     background-origin:border-box ;
     background-position-x: center ;
     background-repeat: no-repeat;
+    background-position: top;
     background-size: 100%;
-    background-position: top;
 }
-
+/*footerbox*/
 .FooterBox{
-
-    margin-top: 6.4%;
-    padding-top: 10%;
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
-    background-position: 0%;
-    background-origin:border-box ;
-    background-position-x: center ;
-    background-repeat: no-repeat;
-    background-size: 98%;
-    background-position: top;
-    height: 800px;
+    border-color: #0E0E0E;
+    background-color: #0a0a0a;
+    height: 500px;
 }
 
-.main{
+.logoPart6{
+    display:flex;
+    margin-left: 0px;
+    align-items: center;
+}
+
+.whiteLogo6{
+    margin-top: 30px;
+    width:65px;
     display: inline-block;
+
+}
+
+.BTed6{
+    margin-top: 65px;
+    margin-right: 4px;
+    margin-left: 6px;
+    color: #ED007F;
+    display:inline-block;
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.whiteR6{
+    margin-top: 45px;
+    width: 15px;
+}
+
+.text6{
+    font-size: 15px;
+    width:340px;
+    margin-left: 75px;
+    text-align: justify;
+    color: white;
+    line-height: 2;
+}
+
+.leftBox6{
+    margin-left:20px;
+    float: left;
+}
+
+.MailLogo,.phone1Logo,.phone2Logo,.locationLogo,.earthLogo{
+    width: 45px;
+}
+
+.email6,.no6,.no62,.loc6,.site6{
+    color:white;
+    height: 17px;
+}
+
+.Mail,.phone1,.phone2,.location,.earth{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap:25px;
+}
+
+.contactMe6{
+    margin-top: 50px;
+    color: white;
+    font-size: 30px;
+}
+.middleBox6{
+    margin-left: 180px;
+    display:inline-block;
+    width: 400px;
+    align-items: center;
+    display: inline-block;
+}
+
+.rightBox6{
+    display:inline-block;
+    position: absolute;
+    margin-top: 0.5%;
+    width: 500px;
+    margin-left: 8%;
+}
+
+
+.sendLogo6,.globeLogo6{
+    display:inline-block;
+    position: relative;
+    margin-top: 45px;
+    width: 60px;
+}
+
+.sendLogo6{
+    width:50px;
+}
+
+.feedbackText6,.globeText6{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+.pinkButton6,.pinkButton62{
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.rights6{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 41%;
 }
