@@ -1,14 +1,13 @@
 body{
     background-color: white;
 }
-h1,p,button,li{
+h1,p,button,li,h3{
 
     font-family: 'Noto Sans Miao', sans-serif;
-    
 
 }
 img{
-    width:300px;
+    width:80px;
 }
 .logoBlack{
     padding-top: 0%;
@@ -200,15 +199,7 @@ button:hover{
     background-position-x: center ;
     bottom: 500%;
 }
-.Page4{
-    border-color: black;
-    padding-bottom: 11%;
-    background-color: black;
-    background-position: 0%;
-    background-origin:border-box ;
-    background-position-x: center ;
-    bottom: 500%;
-}
+
 .alnoorText3,.PGCText3,.airText3{
     font-weight: 900;
     text-align: center;
@@ -269,3 +260,178 @@ button:hover{
 
 
 /*Page 4 Start*/
+
+.Page4{
+    border-color: black;
+    padding-bottom: 11%;
+    background-image: url("PinkWallpaper.png");
+    background-position: 0%;
+    background-origin:border-box ;
+    background-position-x: center ;
+    bottom: 500%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:920px;
+    background-position: top;
+
+}
+
+.skills4,.title4,.title42{
+    color:white;
+}
+
+.title4{
+    display:inline-block;
+    padding-left:6.8%;
+    font-size:200%;
+    padding-top: 5%;
+}
+
+.skills4{
+    padding-left: 7%;
+    font-size: 106%;
+    line-height: 10%;
+    font-weight: 500;
+}
+
+.line4{
+    display:inline-block;
+    min-width: 14%;
+}
+.whiteLine{
+    margin-top: 1%;
+    display: inline-block;
+    width: 300px;
+    height: 13px;
+    background: white;
+    border:50px;
+    border-color: white;
+    border-radius: 3px;
+    position: absolute;
+}
+
+.Line1,.Line2,.Line3,.Line4,.Line5,.Line6,.Line7,.Line8,.Line9,.Line10,.Line11{
+    display: inline-block;
+    margin-top: 1%;
+    width: 30px;
+    height: 13px;
+    background:#ED007F;
+    border:50px;
+    border-radius: 3px;
+    position: absolute;
+}
+
+.Line1{
+    width: 280px;
+}
+
+.Line2{
+    width: 250px;
+}
+.Line3{
+    width: 275px;
+}
+.Line4{
+    width: 270px;
+}
+.Line5{
+    width: 260px;
+}
+.Line6{
+    width: 250px;
+}
+.Line7{
+    width: 230px;
+}
+.Line8{
+    width: 280px;
+}
+.Line9{
+    width: 250px;
+}
+.Line10{
+    width: 270px;
+}
+.Line11{
+    width: 270px;
+}
+
+.title42{
+    display:inline-block;
+    padding-left:5%;
+    font-size:170%;
+    padding-top: 5%;
+}
+
+  .circleCpp,.circlePython,.circleJava,.circleCppOver,.circlePythonOver,.circleJavaOver{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #ED007F;
+    border-top-color: transparent;
+    transform:rotate(-45deg);
+    position: absolute;
+}
+
+.circleMid{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 8px;
+    border-color:#610034;
+    border-top-color: transparent;
+    transform:rotate(45deg);
+    position: absolute;
+}
+
+
+.circleCppOver{
+    transform:rotate(35deg);
+}
+
+.circlePythonOver{
+    transform:rotate(15deg);
+}
+
+.circleJavaOver{
+    transform:rotate(-10deg);
+}
+
+.cppLogo,.pythonLogo,.javaLogo{
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 18px;
+    width: 60px;
+}
+
+.pythonLogo{
+    width: 50px;
+    margin-top: 23px;
+    margin-left:23px;
+
+
+}
+
+.cpp,.python,.java{
+    display: inline-block;
+    width: 150px;
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 10%;
+}
+
+
+.cpp{
+    margin-left: 5%;
+}
+
+.python{
+    margin-left: 11.6%;
+}
+
+.java{
+    margin-left: 18%;
+}
