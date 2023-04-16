@@ -239,7 +239,6 @@ button:hover{
         border-style: solid;
         display:inline-block;
         position: absolute;
-
 }
 .right3{
     display: inline-block;
@@ -263,15 +262,15 @@ button:hover{
 
 .Page4{
     border-color: black;
-    padding-bottom: 11%;
+    background-color: black;
     background-image: url("PinkWallpaper.png");
     background-position: 0%;
     background-origin:border-box ;
     background-position-x: center ;
     bottom: 500%;
     background-repeat: no-repeat;
-    background-size: 100%;
-    height:920px;
+    background-size: 1584px;
+    height:841px;
     background-position: top;
 
 }
@@ -282,27 +281,27 @@ button:hover{
 
 .title4{
     display:inline-block;
-    padding-left:6.8%;
-    font-size:200%;
+    padding-left:6%;
+    font-size:25px;
     padding-top: 5%;
 }
 
 .skills4{
     padding-left: 7%;
-    font-size: 106%;
+    font-size: 100%;
     line-height: 10%;
     font-weight: 500;
 }
 
 .line4{
     display:inline-block;
-    min-width: 14%;
+    min-width: 15%;
 }
 .whiteLine{
     margin-top: 1%;
     display: inline-block;
-    width: 300px;
-    height: 13px;
+    width: 280px;
+    height: 12px;
     background: white;
     border:50px;
     border-color: white;
@@ -314,7 +313,7 @@ button:hover{
     display: inline-block;
     margin-top: 1%;
     width: 30px;
-    height: 13px;
+    height: 12px;
     background:#ED007F;
     border:50px;
     border-radius: 3px;
@@ -326,49 +325,49 @@ button:hover{
 }
 
 .Line2{
-    width: 250px;
+    width: 265px;
 }
 .Line3{
-    width: 275px;
-}
-.Line4{
-    width: 270px;
-}
-.Line5{
     width: 260px;
 }
-.Line6{
-    width: 250px;
+.Line4{
+    width: 265px;
 }
-.Line7{
+.Line5{
+    width: 240px;
+}
+.Line6{
     width: 230px;
 }
-.Line8{
-    width: 280px;
+.Line7{
+    width: 210px;
 }
-.Line9{
+.Line8{
     width: 250px;
 }
+.Line9{
+    width: 230px;
+}
 .Line10{
-    width: 270px;
+    width: 250px;
 }
 .Line11{
-    width: 270px;
+    width: 250px;
 }
 
 .title42{
     display:inline-block;
-    padding-left:5%;
-    font-size:170%;
+    padding-left:6%;
+    font-size:25px;
     padding-top: 5%;
 }
 
   .circleCpp,.circlePython,.circleJava,.circleCppOver,.circlePythonOver,.circleJavaOver{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border-style: solid;
-    border-width: 8px;
+    border-width: 6px;
     border-color: #ED007F;
     border-top-color: transparent;
     transform:rotate(-45deg);
@@ -376,11 +375,11 @@ button:hover{
 }
 
 .circleMid{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border-style: solid;
-    border-width: 8px;
+    border-width: 6px;
     border-color:#610034;
     border-top-color: transparent;
     transform:rotate(45deg);
@@ -402,18 +401,23 @@ button:hover{
 
 .cppLogo,.pythonLogo,.javaLogo{
     display: inline-block;
-    margin-top: 18px;
-    margin-left: 18px;
-    width: 60px;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 50px;
 }
 
 .pythonLogo{
-    width: 50px;
+    width: 35px;
     margin-top: 23px;
     margin-left:23px;
-
-
 }
+
+.javaLogo{
+    width: 60px;
+    margin-top: 6px;
+    margin-left:12px;
+}
+
 
 .cpp,.python,.java{
     display: inline-block;
@@ -429,9 +433,188 @@ button:hover{
 }
 
 .python{
-    margin-left: 11.6%;
+    margin-left: 12%;
 }
 
 .java{
-    margin-left: 18%;
+    margin-left: 19%;
 }
+
+/*Starting page 5*/
+
+.heading5,.heading52{
+    font-size: 28px;
+    margin-left: 20%;
+    font-weight: 900;
+}
+.left5,.right5{
+    display:inline-block;
+}
+
+.heading52{
+    font-size: 28px;
+    margin-left: 6.5%;
+    font-weight: 900;
+}
+
+.right5{
+
+    margin-left: 170px;
+    display: inline-block;
+    position: absolute;
+}
+.topBox5{
+    display:inline-block;
+    margin-top: 6%;
+
+}
+
+
+.applications5,.interests5{
+
+    font-size: 17px;
+    line-height: 230%;
+    font-weight: 700;
+    margin-left: 12%;
+    width: 260px;
+}
+
+.interests5{
+
+    margin-left: 1px;
+
+}
+
+.verticleLineBlack5{
+
+    margin-left: 80px;   
+    padding-top: 50px;
+    margin-top: 40px;
+    border-width: 1px;
+    height: 400px;
+    width:0px;
+    color: black;
+    position: absolute;
+    border-style: solid;
+    display: inline-block;
+}
+.verticleLinePink5{
+
+        margin-left:78px;
+
+        padding-top: 50px;
+        margin-top: 180px;
+        border-width: 3px;
+        height: 50px;
+        width:0px;
+        color:#b40060;
+        border-style: solid;
+        display:inline-block;
+        position: absolute;
+
+}
+
+
+.heading53{
+    display:inline-block;
+    padding-left:25px;
+    font-size:26px;
+    padding-top: 45px;
+}
+
+  .circleEnglish,.circleUrdu,.circlePunjabi,.circleEnglishOver,.circleUrduOver,.circlePunjabiOver{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #000000;
+    border-top-color: transparent;
+    transform:rotate(-45deg);
+    position: absolute;
+}
+
+.circleMid5{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 6px;
+    border-color:#ED007F;
+    border-top-color: transparent;
+    transform:rotate(45deg);
+    position: absolute;
+}
+
+
+.circleUrduOver{
+    transform:rotate(35deg);
+}
+
+.circleEnglishOver{
+    transform:rotate(15deg);
+}
+
+.circlePunjabiOver{
+    transform:rotate(-10deg);
+}
+
+.englishText,.urduText,.punjabiText{
+    display: inline-block;
+    font-weight: 900;
+    margin-top: 28px;
+    margin-left: 22px;
+    width: 50px;
+    color: #5e0032;
+}
+
+.englishText{
+    margin-top: 28px;
+    margin-left: 15px;
+}
+
+.punjabiText{
+    margin-top: 28px;
+    margin-left:13px;
+}
+
+
+.Urdu,.English,.Punjabi{
+    display: inline-block;
+    width: 140px;
+    margin-left: 20px;
+}
+
+
+.Urdu{
+    margin-left: 50px;
+}
+
+.English{
+    margin-left: 0px;
+}
+
+.Punjabi{
+    margin-left: 0px;
+}
+
+
+.info5{
+    margin-top: 6%;
+    display:inline-block;
+    width: 50%;  
+}
+
+.Page5{
+    border-color: rgb(255, 255, 255);
+    background-color: white;
+    background-image: url("WhiteArt1.png");
+    background-position: 0%;
+    background-origin:border-box ;
+    background-position-x: center ;
+    background-repeat: no-repeat;
+    background-size: 98%;
+    background-position: top;
+    height: 841px;
+}
+
