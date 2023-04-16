@@ -47,21 +47,47 @@ background-color:white;
     border-color: #b40060;
     border-style:solid;
     font-weight: 700;
-
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
 }
+
+
+
 button:hover{
     
     background-color:#b40060;
-        color: #ffffff;
-        border-color: #b40060;
-        border-style:groove;
-        transition: 600ms;
-    
+    color: #ffffff;
+    border-color: #b40060;
+    border-style:solid;
+    transition: 600ms;
+    transform: scale(1.1);
 }
+
+  
+
 .pinkButton1,.pinkButton12,.pinkButton23,.pinkButton6,.pinkButton62{
     background-color:#b40060;
     color: #ffffff;
 }
+
+.pinkButton1:hover,.pinkButton12:hover{
+    background-color:white;
+    color: #b40060;
+}
+
+.pinkButton23:hover{
+    background-color:#000000;
+    color: white;
+}
+
+.pinkButton6:hover,.pinkButton62:hover{
+    background-color:#0a0a0a;
+    color: #ffffff;
+}
+
+
 .pinkButton1{
     padding-left:40px ;
     padding-right: 40px;
@@ -281,7 +307,7 @@ button:hover{
 .title4{
     display:inline-block;
     padding-left:6%;
-    font-size:25px;
+    font-size:30px;
     padding-top: 5%;
 }
 
@@ -687,7 +713,7 @@ button:hover{
     font-size: 30px;
 }
 .middleBox6{
-    margin-left: 180px;
+    margin-left: 10%;
     display:inline-block;
     width: 400px;
     align-items: center;
@@ -733,4 +759,7 @@ button:hover{
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 41%;
+    font-weight: 500;
 }
+
+
