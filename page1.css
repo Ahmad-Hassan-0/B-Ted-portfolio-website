@@ -262,15 +262,24 @@ button:hover{
 
 .Page4{
     border-color: black;
+<<<<<<< HEAD
     background-color: black;
+=======
+    padding-bottom: 11%;
+>>>>>>> c520596e747de643bac7b896e920a2cc179b3c15
     background-image: url("PinkWallpaper.png");
     background-position: 0%;
     background-origin:border-box ;
     background-position-x: center ;
     bottom: 500%;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     background-size: 1584px;
     height:841px;
+=======
+    background-size: 100%;
+    height:920px;
+>>>>>>> c520596e747de643bac7b896e920a2cc179b3c15
     background-position: top;
 
 }
@@ -281,12 +290,18 @@ button:hover{
 
 .title4{
     display:inline-block;
+<<<<<<< HEAD
     padding-left:6%;
     font-size:25px;
+=======
+    padding-left:8%;
+    font-size:200%;
+>>>>>>> c520596e747de643bac7b896e920a2cc179b3c15
     padding-top: 5%;
 }
 
 .skills4{
+<<<<<<< HEAD
     padding-left: 7%;
     font-size: 100%;
     line-height: 10%;
@@ -617,4 +632,30 @@ button:hover{
     background-position: top;
     height: 841px;
 }
+=======
+
+    padding-left: 7%;
+    font-size: 100%;
+    line-height: 200%;
+    font-weight: 700;
+}
+
+.whiteLine{
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    background: white;
+    border:50px;
+    border-color: white;
+ 
+}
+
+
+
+
+
+
+
+
+>>>>>>> c520596e747de643bac7b896e920a2cc179b3c15
 
