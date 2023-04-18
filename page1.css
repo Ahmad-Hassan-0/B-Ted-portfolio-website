@@ -12,7 +12,7 @@ img{
     display: block;
     margin-right: 100px;
     border-right: 100px;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 .blackLogo1{
     float: left;
@@ -94,13 +94,15 @@ button:hover{
 }
 .buttons1{
     display: block;
-    padding-left: 69%;
+    padding-left: 68%;
 }
 .midText1{
+    position:absolute;
     padding-top: 5%;
-    display:inline-block;
+    padding-left: 5%;
+    float: left;
     align-self: left;
-    width: 50%;
+    width: 60%;
     border-right: 0%;
 }
 .im1{
@@ -108,6 +110,7 @@ button:hover{
     font-size: 200%;
     color:#b40060;
     margin-bottom: 0%;
+
 }
 .AH1{
     width: 100%;
@@ -139,11 +142,12 @@ button:hover{
     color:#ad005c;
 }
 .pinkButton12{
-    margin-left: 38%;
+    margin-left: 36%;
 }
 .ID1{
-    width:35%;
+    width:36%;
     float:right;
+
 }
 .Page1{
     display:inline-block;
@@ -327,9 +331,9 @@ button:hover{
     display: inline-block;
     width: 280px;
     height: 12px;
-    background: white;
+    background: #D9D9D9;
     border:50px;
-    border-color: white;
+    border-color: #D9D9D9;
     border-radius: 3px;
     position: absolute;
 }
@@ -542,7 +546,7 @@ button:hover{
 
 .heading53{
     display:inline-block;
-    padding-left:25px;
+    padding-left: 58px;
     font-size:26px;
     padding-top: 45px;
 }
@@ -606,7 +610,7 @@ button:hover{
 
 .Urdu,.English,.Punjabi{
     display: inline-block;
-    width: 140px;
+    width: 120px;
     margin-left: 20px;
 }
 
@@ -645,7 +649,7 @@ button:hover{
 /*footerbox*/
 .FooterBox{
     border-color: #0E0E0E;
-    background-color: #0a0a0a;
+    background-color: rgb(14, 14, 14);
     height: 500px;
 }
 
