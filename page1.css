@@ -828,25 +828,15 @@ button:hover{
     .pinkButton1{
         padding-left:10px ;
         padding-right: 10px;
-
     }
     
     .buttons1{
         margin-top: 0.4%; 
-        display: inline-block;
+        position: absolute;
         padding-left: 61%;
     }
     
-    .midText1{
-        position:absolute;
-        padding-top: 5%;
-        padding-left: 5%;
-        float: left;
-        align-self: left;
-        width: 70%;
-        border-right: 0%;
-    }
-    
+   
     .im1{
         font-weight: 1000;
         font-size: 70%;
@@ -886,15 +876,32 @@ button:hover{
     }
     
     .pinkButton12{
-        margin-left: 33%;
+        margin-left: 30%;
+    }
+
+    .top1{
+        display: inline;
+        width:400px;
+    }
+
+    .midText1{
+        position:absolute;
+        padding-top: 49%;
+        padding-left: 20%;
+        display: inline;
+        width: 70%;
+        border-right: 0%;
     }
     
     .ID1{
-        width:36%;
-        float:right;
+        position: absolute;
+        margin-top: 0px;
+        width:48%;
+        padding-left: 24%;
     }
-    .Page1{
-        display:inline-block;
+
+    .page1{
+        display: inline;
     }
     /*Page 1 completed*/
     /*Starting Page No 2*/
@@ -922,6 +929,7 @@ button:hover{
         margin-left:39%;
     }
     .Page2{
+        margin-top: 350px;
         border-color: black;
         padding-bottom: 11%;
         background-color: black;
@@ -989,10 +997,10 @@ button:hover{
         width: 63%;
     }
     .verticleLineBlack3{
-    
-        margin-left: 2px;   
+       
+        margin-left: 10.1px;   
         padding-top: 50px;
-        margin-top: 20px;
+        margin-top: 28px;
         border-width: 0.03px;
         border-right: 0px;
         height: 60px;
@@ -1003,11 +1011,12 @@ button:hover{
         display: inline-block;
     }
     .verticleLinePink3{
-        
+    
+            margin-left: 10px;
             padding-top: 50px;
-            margin-top: 30px;
+            margin-top: 50px;
             border-width: 0.1px;
-            height: 10px;
+            height: 6px;
             width:0px;
             color:#b40060;
             border-style: solid;
@@ -1017,8 +1026,8 @@ button:hover{
     .right3{
         display: inline-block;
         margin-top: 8%;
-        margin-left: 3%;
-    
+        margin-left: 0%;
+
     }
     .points3{
         margin-top: 15%;
