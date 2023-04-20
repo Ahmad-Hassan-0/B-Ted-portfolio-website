@@ -1,12 +1,15 @@
 body{
     background-color: white;
 }
+
 h1,p,button,li,h3{
     font-family: 'Noto Sans Miao', sans-serif;
 }
+
 img{
     width:80px;
 }
+
 .logoBlack{
     padding-top: 0%;
     display: block;
@@ -14,11 +17,13 @@ img{
     border-right: 100px;
     margin-top: 1%;
 }
+
 .blackLogo1{
     float: left;
     width: 4.5%;
     
 }
+
 .BTed1{
     font-size: 160%;
     float:left;
@@ -53,8 +58,6 @@ background-color:white;
     transition: transform 0.3s ease-in-out;
 }
 
-
-
 button:hover{
     
     background-color:#b40060;
@@ -87,15 +90,16 @@ button:hover{
     color: #ffffff;
 }
 
-
 .pinkButton1{
     padding-left:40px ;
     padding-right: 40px;
 }
+
 .buttons1{
     display: block;
     padding-left: 68%;
 }
+
 .midText1{
     position:absolute;
     padding-top: 5%;
@@ -105,13 +109,14 @@ button:hover{
     width: 60%;
     border-right: 0%;
 }
+
 .im1{
     font-weight: 1000;
     font-size: 200%;
     color:#b40060;
     margin-bottom: 0%;
-
 }
+
 .AH1{
     width: 100%;
     margin-top: 0%;
@@ -119,8 +124,8 @@ button:hover{
     font-weight: 900;
     padding-left: 4%;
     margin-bottom: 0%;
-
 }
+
 .uI1{
     font-weight: 900;
     margin-top:0%;
@@ -131,6 +136,7 @@ button:hover{
     font-weight: 900;
     padding-left: 17%;
 }
+
 .slogen1{
     margin-top:10%;
     margin-bottom: 10%;
@@ -141,13 +147,14 @@ button:hover{
     padding-left: 18%;
     color:#ad005c;
 }
+
 .pinkButton12{
     margin-left: 36%;
 }
+
 .ID1{
     width:36%;
     float:right;
-
 }
 .Page1{
     display:inline-block;
@@ -766,4 +773,742 @@ button:hover{
     font-weight: 500;
 }
 
+@media screen and (max-width: 600px) {
 
+
+    body{
+        background-color: white;
+    }
+    
+    h1,p,button,li,h3{
+        font-family: 'Noto Sans Miao', sans-serif;
+    }
+  
+    .logoBlack{
+        padding-top: 0%;
+        margin-top: 1%;
+        display: inline-block;
+        position: absolute;
+    }
+
+    .blackLogo1{
+        width: 5%;
+        display: inline-block;
+    }
+    
+    .BTed1{
+        font-size: 45%;
+        float:left;
+        font-weight: 900;
+        color: #b40060;
+        margin-top: 0.5%;
+    }
+
+    button{
+        background-color:white;
+        color: #b40060;
+        margin: 0px;
+        padding-right: 8px;
+        padding-left: 8px;
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+        text-align: center;
+        border-width: 0.1px;
+        font-size:3.9px;
+        border-radius: 100px 0px;
+        border-color: #b40060;
+        border-style:solid;
+        font-weight: 900;
+        cursor: pointer;
+        overflow: hidden;
+        z-index: 1;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .pinkButton1{
+        padding-left:10px ;
+        padding-right: 10px;
+
+    }
+    
+    .buttons1{
+        margin-top: 0.4%; 
+        display: inline-block;
+        padding-left: 61%;
+    }
+    
+    .midText1{
+        position:absolute;
+        padding-top: 5%;
+        padding-left: 5%;
+        float: left;
+        align-self: left;
+        width: 70%;
+        border-right: 0%;
+    }
+    
+    .im1{
+        font-weight: 1000;
+        font-size: 70%;
+        color:#b40060;
+        margin-bottom: 0%;
+    }
+    
+    .AH1{
+        width: 100%;
+        margin-top: 0%;
+        font-size: 160%;
+        font-weight: 900;
+        padding-left: 4%;
+        margin-bottom: 0%;
+    }
+    
+    .uI1{
+        font-weight: 900;
+        margin-top:0%;
+        margin-bottom: 2%;
+        width: 100%;
+        margin-top: 0%;
+        font-size: 75%;
+        font-weight: 900;
+        padding-left: 12%;
+    }
+    
+    .slogen1{
+        margin-top:10%;
+        margin-bottom: 6%;
+        width: 100%;
+        margin-top: 0%;
+        font-size: 20%;
+        font-weight: 900;
+        padding-left: 12.6%;
+        color:#ad005c;
+    }
+    
+    .pinkButton12{
+        margin-left: 33%;
+    }
+    
+    .ID1{
+        width:36%;
+        float:right;
+    }
+    .Page1{
+        display:inline-block;
+    }
+    /*Page 1 completed*/
+    /*Starting Page No 2*/
+    
+    .title2{
+        display: inline-block;
+        color: white;
+        font-size: 50%;
+        padding-left:39%;
+        margin-bottom: 5%;
+        margin-top: 0%;
+        padding-top: 18%;
+    }
+    .description2{
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        font-size: 5px;
+        width: 72%;
+        padding-left:11%;
+        margin-bottom: 8%;
+        text-align: justify ;
+    }
+    .pinkButton23{
+        display: inline-block;
+        margin-left:39%;
+    }
+    .Page2{
+        border-color: black;
+        padding-bottom: 11%;
+        background-color: black;
+        background-position: 0%;
+        background-origin:border-box ;
+        background-position-x: center ;
+        bottom: 500%;
+    }
+    .halfLogo2{
+        margin-top: 7%;
+        width: 20%;
+        float:right;
+    
+    }
+    .box2{
+        display:inline-block;
+        width: 77%;
+    }
+    
+    /*Page 3 Starting*/
+    .title31{
+        display: inline-block;
+        font-size: 50%;
+        padding-left: 39%;
+        margin-bottom: 5%;
+        margin-top: 0%;
+    }
+    .alnoor3,.PGC3,.air3{
+        display:inline-block;
+        width:67px;
+        align-items: center;
+        align-content: center;
+        margin-left: 1%;
+    }
+
+    .alnoorLogo3,.PGCLogo3,.airLogo3{
+        width:59%;
+        margin-left: 21%;
+    }
+
+    .Page3{
+        padding-bottom: 10%;
+        background-position: 0%;
+        background-origin:border-box ;
+        background-position-x: center ;
+        bottom: 500%;
+    }
+    
+    .alnoorText3,.PGCText3,.airText3{
+
+        font-weight: 900;
+        text-align: center;
+        font-size: 4px;
+
+    }
+    .logos3{
+        margin-left: 3%;
+        margin-top: 13%;
+        width: 100%;
+        display: inline-block;
+    }
+    .left3{
+        padding-top: 6%;
+        float:left;
+        width: 63%;
+    }
+    .verticleLineBlack3{
+    
+        margin-left: 2px;   
+        padding-top: 50px;
+        margin-top: 20px;
+        border-width: 0.03px;
+        border-right: 0px;
+        height: 60px;
+        width:0px;
+        color: black;
+        position: absolute;
+        border-style: solid;
+        display: inline-block;
+    }
+    .verticleLinePink3{
+        
+            padding-top: 50px;
+            margin-top: 30px;
+            border-width: 0.1px;
+            height: 10px;
+            width:0px;
+            color:#b40060;
+            border-style: solid;
+            display:inline-block;
+            position: absolute;
+    }
+    .right3{
+        display: inline-block;
+        margin-top: 8%;
+        margin-left: 3%;
+    
+    }
+    .points3{
+        margin-top: 15%;
+        font-size: 3px;
+        font-weight: 600;
+        line-height: 200%;
+    }
+    .title32{   
+        font-size: 16%;
+        padding-left: 22%;
+    }
+    
+    
+    /*Page 4 Start*/
+    
+    .Page4{
+        border-color: black;
+        background-color: black;
+        background-image: url("PinkWallpaper.png");
+        background-position: 0%;
+        background-origin:border-box ;
+        background-position-x: center ;
+        bottom: 500%;
+        background-repeat: no-repeat;
+        background-size: 1584px;
+        height:841px;
+        background-position: top;
+    
+    }
+    
+    .skills4,.title4,.title42{
+        color:white;
+    }
+    
+    .title4{
+        display:inline-block;
+        padding-left:6%;
+        font-size:30px;
+        padding-top: 5%;
+    }
+    
+    .skills4{
+        padding-left: 7%;
+        font-size: 100%;
+        line-height: 10%;
+        font-weight: 500;
+    }
+    
+    .line4{
+        display:inline-block;
+        min-width: 15%;
+    }
+    .whiteLine{
+        margin-top: 1%;
+        display: inline-block;
+        width: 280px;
+        height: 12px;
+        background: #D9D9D9;
+        border:50px;
+        border-color: #D9D9D9;
+        border-radius: 3px;
+        position: absolute;
+    }
+    
+    .Line1,.Line2,.Line3,.Line4,.Line5,.Line6,.Line7,.Line8,.Line9,.Line10,.Line11{
+        display: inline-block;
+        margin-top: 1%;
+        width: 30px;
+        height: 12px;
+        background:#ED007F;
+        border:50px;
+        border-radius: 3px;
+        position: absolute;
+    }
+    
+    .Line1{
+        width: 280px;
+    }
+    
+    .Line2{
+        width: 265px;
+    }
+    .Line3{
+        width: 260px;
+    }
+    .Line4{
+        width: 265px;
+    }
+    .Line5{
+        width: 240px;
+    }
+    .Line6{
+        width: 230px;
+    }
+    .Line7{
+        width: 210px;
+    }
+    .Line8{
+        width: 250px;
+    }
+    .Line9{
+        width: 230px;
+    }
+    .Line10{
+        width: 250px;
+    }
+    .Line11{
+        width: 250px;
+    }
+    
+    .title42{
+        display:inline-block;
+        padding-left:6%;
+        font-size:25px;
+        padding-top: 5%;
+    }
+    
+      .circleCpp,.circlePython,.circleJava,.circleCppOver,.circlePythonOver,.circleJavaOver{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 6px;
+        border-color: #ED007F;
+        border-top-color: transparent;
+        transform:rotate(-45deg);
+        position: absolute;
+    }
+    
+    .circleMid{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 6px;
+        border-color:#610034;
+        border-top-color: transparent;
+        transform:rotate(45deg);
+        position: absolute;
+    }
+    
+    
+    .circleCppOver{
+        transform:rotate(35deg);
+    }
+    
+    .circlePythonOver{
+        transform:rotate(15deg);
+    }
+    
+    .circleJavaOver{
+        transform:rotate(-10deg);
+    }
+    
+    .cppLogo,.pythonLogo,.javaLogo{
+        display: inline-block;
+        margin-top: 16px;
+        margin-left: 16px;
+        width: 50px;
+    }
+    
+    .pythonLogo{
+        width: 35px;
+        margin-top: 23px;
+        margin-left:23px;
+    }
+    
+    .javaLogo{
+        width: 60px;
+        margin-top: 6px;
+        margin-left:12px;
+    }
+    
+    
+    .cpp,.python,.java{
+        display: inline-block;
+        width: 150px;
+        margin-top: 5%;
+        position: absolute;
+        margin-left: 10%;
+    }
+    
+    
+    .cpp{
+        margin-left: 5%;
+    }
+    
+    .python{
+        margin-left: 12%;
+    }
+    
+    .java{
+        margin-left: 19%;
+    }
+    
+    /*Starting page 5*/
+    
+    .heading5,.heading52{
+        font-size: 28px;
+        margin-left: 20%;
+        font-weight: 900;
+    }
+    .left5,.right5{
+        display:inline-block;
+    }
+    
+    .heading52{
+        font-size: 28px;
+        margin-left: 6.5%;
+        font-weight: 900;
+    }
+    
+    .right5{
+    
+        margin-left: 170px;
+        display: inline-block;
+        position: absolute;
+    }
+    .topBox5{
+        display:inline-block;
+        margin-top: 6%;
+    
+    }
+    
+    
+    .applications5,.interests5{
+    
+        font-size: 17px;
+        line-height: 230%;
+        font-weight: 700;
+        margin-left: 12%;
+        width: 260px;
+    }
+    
+    .interests5{
+    
+        margin-left: 1px;
+    
+    }
+    
+    .verticleLineBlack5{
+    
+        margin-left: 80px;   
+        padding-top: 50px;
+        margin-top: 40px;
+        border-width: 1px;
+        height: 400px;
+        width:0px;
+        color: black;
+        position: absolute;
+        border-style: solid;
+        display: inline-block;
+    }
+    .verticleLinePink5{
+    
+            margin-left:78px;
+    
+            padding-top: 50px;
+            margin-top: 180px;
+            border-width: 3px;
+            height: 50px;
+            width:0px;
+            color:#b40060;
+            border-style: solid;
+            display:inline-block;
+            position: absolute;
+    
+    }
+    
+    
+    .heading53{
+        display:inline-block;
+        padding-left: 58px;
+        font-size:26px;
+        padding-top: 45px;
+    }
+    
+      .circleEnglish,.circleUrdu,.circlePunjabi,.circleEnglishOver,.circleUrduOver,.circlePunjabiOver{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 6px;
+        border-color: #000000;
+        border-top-color: transparent;
+        transform:rotate(-45deg);
+        position: absolute;
+    }
+    
+    .circleMid5{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 6px;
+        border-color:#ED007F;
+        border-top-color: transparent;
+        transform:rotate(45deg);
+        position: absolute;
+    }
+    
+    
+    .circleUrduOver{
+        transform:rotate(35deg);
+    }
+    
+    .circleEnglishOver{
+        transform:rotate(15deg);
+    }
+    
+    .circlePunjabiOver{
+        transform:rotate(-10deg);
+    }
+    
+    .englishText,.urduText,.punjabiText{
+        display: inline-block;
+        font-weight: 900;
+        margin-top: 28px;
+        margin-left: 22px;
+        width: 50px;
+        color: #5e0032;
+    }
+    
+    .englishText{
+        margin-top: 28px;
+        margin-left: 15px;
+    }
+    
+    .punjabiText{
+        margin-top: 28px;
+        margin-left:13px;
+    }
+    
+    
+    .Urdu,.English,.Punjabi{
+        display: inline-block;
+        width: 120px;
+        margin-left: 20px;
+    }
+    
+    
+    .Urdu{
+        margin-left: 50px;
+    }
+    
+    .English{
+        margin-left: 0px;
+    }
+    
+    .Punjabi{
+        margin-left: 0px;
+    }
+    
+    
+    .info5{
+        margin-top: 6%;
+        display:inline-block;
+        width: 50%;  
+    }
+    
+    .Page5{
+        border-color: rgb(255, 255, 255);
+        background-color: white;
+        height: 835px;
+        background-image: url("WhiteArt1.png");
+        background-position: 0%;
+        background-origin:border-box ;
+        background-position-x: center ;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100%;
+    }
+    /*footerbox*/
+    .FooterBox{
+        border-color: #0E0E0E;
+        background-color: rgb(14, 14, 14);
+        height: 500px;
+    }
+    
+    .logoPart6{
+        display:flex;
+        margin-left: 0px;
+        align-items: center;
+    }
+    
+    .whiteLogo6{
+        margin-top: 30px;
+        width:65px;
+        display: inline-block;
+    
+    }
+    
+    .BTed6{
+        margin-top: 65px;
+        margin-right: 4px;
+        margin-left: 6px;
+        color: #ED007F;
+        display:inline-block;
+        font-size: 34px;
+        font-weight: 900;
+    }
+    
+    .whiteR6{
+        margin-top: 45px;
+        width: 15px;
+    }
+    
+    .text6{
+        font-size: 15px;
+        width:340px;
+        margin-left: 75px;
+        text-align: justify;
+        color: white;
+        line-height: 2;
+    }
+    
+    .leftBox6{
+        margin-left:20px;
+        float: left;
+    }
+    
+    .MailLogo,.phone1Logo,.phone2Logo,.locationLogo,.earthLogo{
+        width: 45px;
+    }
+    
+    .email6,.no6,.no62,.loc6,.site6{
+        color:white;
+        height: 17px;
+    }
+    
+    .Mail,.phone1,.phone2,.location,.earth{
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+        gap:25px;
+    }
+    
+    .contactMe6{
+        margin-top: 50px;
+        color: white;
+        font-size: 30px;
+    }
+    .middleBox6{
+        margin-left: 10%;
+        display:inline-block;
+        width: 400px;
+        align-items: center;
+        display: inline-block;
+    }
+    
+    .rightBox6{
+        display:inline-block;
+        position: absolute;
+        margin-top: 0.5%;
+        width: 500px;
+        margin-left: 8%;
+    }
+    
+    
+    .sendLogo6,.globeLogo6{
+        display:inline-block;
+        position: relative;
+        margin-top: 45px;
+        width: 60px;
+    }
+    
+    .sendLogo6{
+        width:50px;
+    }
+    
+    .feedbackText6,.globeText6{
+        display: inline-block;
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        padding-left: 10px;
+        margin-top: 50px;
+    }
+    
+    .pinkButton6,.pinkButton62{
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    
+    .rights6{
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 41%;
+        font-weight: 500;
+    }
+
+}
