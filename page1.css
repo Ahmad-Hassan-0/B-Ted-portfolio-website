@@ -1,29 +1,27 @@
 body{
     background-color: white;
+    margin: 0px;
+    width: 100%;
 }
-
 h1,p,button,li,h3{
     font-family: 'Noto Sans Miao', sans-serif;
 }
-
 img{
     width:80px;
 }
-
 .logoBlack{
     padding-top: 0%;
     display: block;
     margin-right: 100px;
     border-right: 100px;
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-left: 1%;
 }
-
 .blackLogo1{
     float: left;
     width: 4.5%;
     
 }
-
 .BTed1{
     font-size: 160%;
     float:left;
@@ -58,6 +56,8 @@ background-color:white;
     transition: transform 0.3s ease-in-out;
 }
 
+
+
 button:hover{
     
     background-color:#b40060;
@@ -90,33 +90,28 @@ button:hover{
     color: #ffffff;
 }
 
+
 .pinkButton1{
     padding-left:40px ;
     padding-right: 40px;
 }
-
 .buttons1{
     display: block;
-    padding-left: 68%;
+    padding-left: 69%;
 }
-
 .midText1{
-    position:absolute;
-    padding-top: 5%;
-    padding-left: 5%;
-    float: left;
+    padding-top: 6%;
+    display:inline-block;
     align-self: left;
-    width: 60%;
+    width: 50%;
     border-right: 0%;
 }
-
 .im1{
     font-weight: 1000;
     font-size: 200%;
     color:#b40060;
     margin-bottom: 0%;
 }
-
 .AH1{
     width: 100%;
     margin-top: 0%;
@@ -124,8 +119,8 @@ button:hover{
     font-weight: 900;
     padding-left: 4%;
     margin-bottom: 0%;
-}
 
+}
 .uI1{
     font-weight: 900;
     margin-top:0%;
@@ -136,7 +131,6 @@ button:hover{
     font-weight: 900;
     padding-left: 17%;
 }
-
 .slogen1{
     margin-top:10%;
     margin-bottom: 10%;
@@ -147,13 +141,11 @@ button:hover{
     padding-left: 18%;
     color:#ad005c;
 }
-
 .pinkButton12{
-    margin-left: 36%;
+    margin-left: 38%;
 }
-
 .ID1{
-    width:36%;
+    width:35%;
     float:right;
 }
 .Page1{
@@ -191,7 +183,6 @@ button:hover{
     background-position: 0%;
     background-origin:border-box ;
     background-position-x: center ;
-    bottom: 500%;
 }
 .halfLogo2{
     margin-top: 7%;
@@ -775,7 +766,6 @@ button:hover{
 
 @media screen and (max-width: 600px) {
 
-
     body{
         background-color: white;
     }
@@ -833,7 +823,7 @@ button:hover{
     .buttons1{
         margin-top: 0.4%; 
         position: absolute;
-        padding-left: 61%;
+        padding-left: 200px;
     }
     
    
@@ -909,73 +899,75 @@ button:hover{
     .title2{
         display: inline-block;
         color: white;
-        font-size: 50%;
-        padding-left:39%;
+        font-size: 54%;
+        padding-left:35%;
         margin-bottom: 5%;
-        margin-top: 0%;
+        margin-top: 5%;
         padding-top: 18%;
     }
     .description2{
         display: inline-block;
         color: rgb(255, 255, 255);
-        font-size: 5px;
-        width: 72%;
-        padding-left:11%;
+        font-size: 6.5px;
+        width: 140px;
+        line-height: 150%;
+        padding-left:12%;
         margin-bottom: 8%;
         text-align: justify ;
     }
     .pinkButton23{
         display: inline-block;
-        margin-left:39%;
+        margin-left:38%;
     }
     .Page2{
+        
         margin-top: 350px;
         border-color: black;
-        padding-bottom: 11%;
+        padding-bottom: 15%;
         background-color: black;
-        background-position: 0%;
-        background-origin:border-box ;
-        background-position-x: center ;
-        bottom: 500%;
     }
+
     .halfLogo2{
+
+        margin-right: 16%;
+        position: absolute;
         margin-top: 7%;
-        width: 20%;
-        float:right;
-    
+        width: 30%;
+        float: right;
     }
     .box2{
         display:inline-block;
-        width: 77%;
+        width: 60%;
     }
     
     /*Page 3 Starting*/
     .title31{
         display: inline-block;
-        font-size: 50%;
-        padding-left: 39%;
-        margin-bottom: 5%;
+        font-size: 9px;
+        padding-left: 31%;
+        margin-bottom: 0%;
         margin-top: 0%;
     }
+
     .alnoor3,.PGC3,.air3{
-        display:inline-block;
-        width:67px;
+        display:inline;
+        width:00px;
         align-items: center;
         align-content: center;
         margin-left: 1%;
     }
 
     .alnoorLogo3,.PGCLogo3,.airLogo3{
-        width:59%;
-        margin-left: 21%;
+        margin-top: 6%;
+        width:40px;
+        margin-left: 36%;
     }
 
     .Page3{
-        padding-bottom: 10%;
+        padding-bottom: 20%;
         background-position: 0%;
         background-origin:border-box ;
         background-position-x: center ;
-        bottom: 500%;
     }
     
     .alnoorText3,.PGCText3,.airText3{
@@ -986,24 +978,26 @@ button:hover{
 
     }
     .logos3{
-        margin-left: 3%;
-        margin-top: 13%;
+        margin-left: 0%;
+        margin-top: 5%;
         width: 100%;
         display: inline-block;
     }
     .left3{
-        padding-top: 6%;
+        padding-top: 8%;
         float:left;
-        width: 63%;
+        padding-right: 4%;
+        width: 40%;
+
     }
     .verticleLineBlack3{
        
-        margin-left: 10.1px;   
+        margin-left: 1px;   
         padding-top: 50px;
-        margin-top: 28px;
+        margin-top: 50px;
         border-width: 0.03px;
-        border-right: 0px;
-        height: 60px;
+      /*border-right: 0px;*/
+        height: 180px;
         width:0px;
         color: black;
         position: absolute;
@@ -1012,32 +1006,35 @@ button:hover{
     }
     .verticleLinePink3{
     
-            margin-left: 10px;
+            margin-left: 0px;
             padding-top: 50px;
-            margin-top: 50px;
-            border-width: 0.1px;
-            height: 6px;
+            margin-top: 80px;
+
+            border-width: 2px;
+            height: 12px;
             width:0px;
             color:#b40060;
             border-style: solid;
             display:inline-block;
             position: absolute;
     }
+
     .right3{
         display: inline-block;
-        margin-top: 8%;
+        margin-top: 7%;
         margin-left: 0%;
-
     }
+
     .points3{
-        margin-top: 15%;
-        font-size: 3px;
-        font-weight: 600;
-        line-height: 200%;
+        margin-top: 20%;
+        font-size: 4px;
+        font-weight: 800;
+        line-height: 300%;
+        padding-left: 25px;
     }
     .title32{   
-        font-size: 16%;
-        padding-left: 22%;
+        font-size: 9px;
+        padding-left: 30%;
     }
     
     
@@ -1512,6 +1509,7 @@ button:hover{
         margin-left: 70px;
     }
     
+
     .rights6{
         font-size: 15px;
         margin-top: 15px;
