@@ -493,7 +493,6 @@ button:hover{
 .topBox5{
     display:inline-block;
     margin-top: 6%;
-
 }
 
 
@@ -612,7 +611,6 @@ button:hover{
     margin-left: 20px;
 }
 
-
 .Urdu{
     margin-left: 50px;
 }
@@ -625,12 +623,6 @@ button:hover{
     margin-left: 0px;
 }
 
-
-.info5{
-    margin-top: 6%;
-    display:inline-block;
-    width: 50%;  
-}
 
 .Page5{
     border-color: rgb(255, 255, 255);
@@ -775,36 +767,43 @@ button:hover{
     }
   
     .logoBlack{
-        padding-top: 0%;
+        padding-top: 1%;
         margin-top: 1%;
         display: inline-block;
         position: absolute;
     }
 
     .blackLogo1{
-        width: 5%;
+        width: 10%;
         display: inline-block;
     }
     
     .BTed1{
-        font-size: 45%;
+        font-size: 100%;
         float:left;
         font-weight: 900;
         color: #b40060;
-        margin-top: 0.5%;
+        margin-top: 1.3%;
     }
+
+    .R1{
+        padding-top:5.3%;
+        padding-left:0.21%;
+        float: left;
+        width: 2%;
+    }  
 
     button{
         background-color:white;
         color: #b40060;
         margin: 0px;
-        padding-right: 8px;
-        padding-left: 8px;
-        padding-top: 2.5px;
-        padding-bottom: 2.5px;
+        padding-right: 13px;
+        padding-left: 13px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         text-align: center;
-        border-width: 0.1px;
-        font-size:3.9px;
+        border-width: 1px;
+        font-size:8px;
         border-radius: 100px 0px;
         border-color: #b40060;
         border-style:solid;
@@ -814,14 +813,26 @@ button:hover{
         z-index: 1;
         transition: transform 0.3s ease-in-out;
     }
+
+    
+    button:hover{
+
+    background-color:#b40060;
+    color: #ffffff;
+    border-color: #b40060;
+    border-style:solid;
+    transition: 600ms;
+    transform: scale(1.1);
+    }
+
     
     .pinkButton1{
-        padding-left:10px ;
-        padding-right: 10px;
+        padding-left:15px ;
+        padding-right: 15px;
     }
-    
+
     .buttons1{
-        margin-top: 0.4%; 
+        margin-top: 3%; 
         position: absolute;
         padding-left: 200px;
     }
@@ -829,7 +840,7 @@ button:hover{
    
     .im1{
         font-weight: 1000;
-        font-size: 70%;
+        font-size: 100%;
         color:#b40060;
         margin-bottom: 0%;
     }
@@ -837,7 +848,7 @@ button:hover{
     .AH1{
         width: 100%;
         margin-top: 0%;
-        font-size: 160%;
+        font-size: 250%;
         font-weight: 900;
         padding-left: 4%;
         margin-bottom: 0%;
@@ -849,7 +860,7 @@ button:hover{
         margin-bottom: 2%;
         width: 100%;
         margin-top: 0%;
-        font-size: 75%;
+        font-size: 121%;
         font-weight: 900;
         padding-left: 12%;
     }
@@ -859,14 +870,15 @@ button:hover{
         margin-bottom: 6%;
         width: 100%;
         margin-top: 0%;
-        font-size: 20%;
+        font-size: 70%;
         font-weight: 900;
         padding-left: 12.6%;
         color:#ad005c;
     }
     
     .pinkButton12{
-        margin-left: 30%;
+        margin-top: 5%;
+        margin-left: 40%;
     }
 
     .top1{
@@ -876,8 +888,8 @@ button:hover{
 
     .midText1{
         position:absolute;
-        padding-top: 49%;
-        padding-left: 20%;
+        padding-top: 90%;
+        padding-left: 15%;
         display: inline;
         width: 70%;
         border-right: 0%;
@@ -885,9 +897,9 @@ button:hover{
     
     .ID1{
         position: absolute;
-        margin-top: 0px;
-        width:48%;
-        padding-left: 24%;
+        margin-top: 7%;
+        width:78%;
+        padding-left: 13%;
     }
 
     .page1{
@@ -899,40 +911,46 @@ button:hover{
     .title2{
         display: inline-block;
         color: white;
-        font-size: 54%;
+        font-size: 84%;
         padding-left:35%;
-        margin-bottom: 5%;
-        margin-top: 5%;
+        margin-bottom: 20%;
+        margin-top: 20%;
         padding-top: 18%;
     }
     .description2{
         display: inline-block;
         color: rgb(255, 255, 255);
-        font-size: 6.5px;
-        width: 140px;
-        line-height: 150%;
+        font-size: 8px;
+        width: 190px;
+        letter-spacing: 0.5px;
+        line-height: 4;
         padding-left:12%;
-        margin-bottom: 8%;
+        margin-bottom: 18%;
         text-align: justify ;
     }
     .pinkButton23{
         display: inline-block;
         margin-left:38%;
     }
+
     .Page2{
-        
-        margin-top: 350px;
+        background-image: url(WhiteLogoHalf.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position-y:200px ;
+        margin-top: 640px;
         border-color: black;
+        height: 640px;
         padding-bottom: 15%;
         background-color: black;
     }
 
     .halfLogo2{
-
-        margin-right: 16%;
         position: absolute;
-        margin-top: 7%;
-        width: 30%;
+        margin-left: 1%;
+        margin-top: 40%;
+        width: 0%;
         float: right;
     }
     .box2{
@@ -943,8 +961,8 @@ button:hover{
     /*Page 3 Starting*/
     .title31{
         display: inline-block;
-        font-size: 9px;
-        padding-left: 31%;
+        font-size: 15px;
+        padding-left: 17%;
         margin-bottom: 0%;
         margin-top: 0%;
     }
@@ -958,9 +976,9 @@ button:hover{
     }
 
     .alnoorLogo3,.PGCLogo3,.airLogo3{
-        margin-top: 6%;
-        width:40px;
-        margin-left: 36%;
+        margin-top: 36%;
+        width:78px;
+        /* margin-left: 22%; */
     }
 
     .Page3{
@@ -968,14 +986,24 @@ button:hover{
         background-position: 0%;
         background-origin:border-box ;
         background-position-x: center ;
+        height: 640px;
     }
     
     .alnoorText3,.PGCText3,.airText3{
 
         font-weight: 900;
         text-align: center;
-        font-size: 4px;
+        font-size: 9px;
 
+    }
+    .alnoorText3{
+        padding-left: 0%;
+    }
+    .PGCText3{
+        padding-left: 0%;
+    }
+    .airText3{
+        margin-left: 0%;
     }
     .logos3{
         margin-left: 0%;
@@ -991,27 +1019,26 @@ button:hover{
 
     }
     .verticleLineBlack3{
-       
         margin-left: 1px;   
         padding-top: 50px;
-        margin-top: 50px;
+        margin-top: 90px;
         border-width: 0.03px;
       /*border-right: 0px;*/
-        height: 180px;
+        height: 520px;
         width:0px;
         color: black;
         position: absolute;
         border-style: solid;
         display: inline-block;
     }
+
     .verticleLinePink3{
     
             margin-left: 0px;
             padding-top: 50px;
-            margin-top: 80px;
-
+            margin-top: 180px;
             border-width: 2px;
-            height: 12px;
+            height: 120px;
             width:0px;
             color:#b40060;
             border-style: solid;
@@ -1021,19 +1048,19 @@ button:hover{
 
     .right3{
         display: inline-block;
-        margin-top: 7%;
+        margin-top: 4.6%;
         margin-left: 0%;
     }
 
     .points3{
-        margin-top: 20%;
-        font-size: 4px;
-        font-weight: 800;
-        line-height: 300%;
+        margin-top: 40%;
+        font-size: 6.4px;
+        font-weight: 900;
+        line-height: 600%;
         padding-left: 25px;
     }
     .title32{   
-        font-size: 9px;
+        font-size: 15px;
         padding-left: 30%;
     }
     
@@ -1047,10 +1074,9 @@ button:hover{
         background-position: 0%;
         background-origin:border-box ;
         background-position-x: center ;
-        bottom: 500%;
         background-repeat: no-repeat;
-        background-size: 1584px;
-        height:841px;
+        background-size: 0px;
+        height:640px;
         background-position: top;
     
     }
@@ -1061,27 +1087,27 @@ button:hover{
     
     .title4{
         display:inline-block;
-        padding-left:6%;
-        font-size:30px;
+        padding-left:40%;
+        font-size:20px;
         padding-top: 5%;
     }
     
     .skills4{
         padding-left: 7%;
-        font-size: 100%;
-        line-height: 10%;
+        font-size: 60%;
+        line-height: 190%;
         font-weight: 500;
     }
     
     .line4{
         display:inline-block;
-        min-width: 15%;
+        min-width: 40%;
     }
     .whiteLine{
-        margin-top: 1%;
+        margin-top: 3%;
         display: inline-block;
-        width: 280px;
-        height: 12px;
+        width: 200px;
+        height: 8px;
         background: #D9D9D9;
         border:50px;
         border-color: #D9D9D9;
@@ -1092,8 +1118,9 @@ button:hover{
     .Line1,.Line2,.Line3,.Line4,.Line5,.Line6,.Line7,.Line8,.Line9,.Line10,.Line11{
         display: inline-block;
         margin-top: 1%;
+        margin-top: 3%;
         width: 30px;
-        height: 12px;
+        height: 8px;
         background:#ED007F;
         border:50px;
         border-radius: 3px;
@@ -1101,53 +1128,53 @@ button:hover{
     }
     
     .Line1{
-        width: 280px;
+        width: 200px;
     }
     
     .Line2{
-        width: 265px;
+        width: 195px;
     }
     .Line3{
-        width: 260px;
+        width: 180px;
     }
     .Line4{
-        width: 265px;
+        width: 185px;
     }
     .Line5{
-        width: 240px;
+        width: 160px;
     }
     .Line6{
-        width: 230px;
+        width: 150px;
     }
     .Line7{
-        width: 210px;
+        width: 130px;
     }
     .Line8{
-        width: 250px;
+        width: 170px;
     }
     .Line9{
-        width: 230px;
+        width: 150px;
     }
     .Line10{
-        width: 250px;
+        width: 170px;
     }
     .Line11{
-        width: 250px;
+        width: 170px;
     }
     
     .title42{
         display:inline-block;
         padding-left:6%;
-        font-size:25px;
+        font-size:16px;
         padding-top: 5%;
     }
     
       .circleCpp,.circlePython,.circleJava,.circleCppOver,.circlePythonOver,.circleJavaOver{
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         border-style: solid;
-        border-width: 6px;
+        border-width: 4px;
         border-color: #ED007F;
         border-top-color: transparent;
         transform:rotate(-45deg);
@@ -1155,11 +1182,11 @@ button:hover{
     }
     
     .circleMid{
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         border-style: solid;
-        border-width: 6px;
+        border-width: 4px;
         border-color:#610034;
         border-top-color: transparent;
         transform:rotate(45deg);
@@ -1181,133 +1208,129 @@ button:hover{
     
     .cppLogo,.pythonLogo,.javaLogo{
         display: inline-block;
-        margin-top: 16px;
-        margin-left: 16px;
-        width: 50px;
+        margin-top: 14px;
+        margin-left: 14px;
+        width: 30px;
     }
     
     .pythonLogo{
-        width: 35px;
-        margin-top: 23px;
-        margin-left:23px;
+        width: 25px;
+        margin-top: 17px;
+        margin-left: 17px;
     }
     
     .javaLogo{
-        width: 60px;
-        margin-top: 6px;
-        margin-left:12px;
+        width: 40px;
+        margin-top: 8px;
+        margin-left: 10px;
     }
     
     
     .cpp,.python,.java{
         display: inline-block;
-        width: 150px;
+        width: 0px;
         margin-top: 5%;
-        position: absolute;
-        margin-left: 10%;
+        /* position: absolute; */
+        margin-left: 30px;
     }
-    
+   
     
     .cpp{
-        margin-left: 5%;
+        margin-left: 14%;
     }
     
     .python{
-        margin-left: 12%;
+        margin-left: 32%;
     }
     
     .java{
-        margin-left: 19%;
+        margin-left: 50%;
     }
     
     /*Starting page 5*/
     
     .heading5,.heading52{
-        font-size: 28px;
-        margin-left: 20%;
+        font-size: 20px;
+        margin-left: 15%;
         font-weight: 900;
     }
+
     .left5,.right5{
+        margin-top: 10px;
         display:inline-block;
     }
     
     .heading52{
-        font-size: 28px;
-        margin-left: 6.5%;
+        font-size: 21px;
+        margin-left: 23%;
         font-weight: 900;
     }
     
     .right5{
-    
-        margin-left: 170px;
-        display: inline-block;
-        position: absolute;
+        margin-left: 0px;
+        float: right;
     }
+
     .topBox5{
         display:inline-block;
         margin-top: 6%;
-    
     }
-    
     
     .applications5,.interests5{
-    
-        font-size: 17px;
-        line-height: 230%;
+        font-size: 10px;
+        line-height: 350%;
         font-weight: 700;
-        margin-left: 12%;
-        width: 260px;
+        margin-left: 5%;
+        width: 160px;
     }
-    
+
     .interests5{
-    
-        margin-left: 1px;
-    
+        margin-left: 13%;
+
+        width:78%;
     }
     
     .verticleLineBlack5{
-    
-        margin-left: 80px;   
+
+        margin-left: 10px;
         padding-top: 50px;
-        margin-top: 40px;
+        margin-top: 110px;
         border-width: 1px;
-        height: 400px;
+        height: 330px;
         width:0px;
         color: black;
         position: absolute;
         border-style: solid;
         display: inline-block;
     }
+
     .verticleLinePink5{
-    
-            margin-left:78px;
-    
+            margin-left:8px;
             padding-top: 50px;
             margin-top: 180px;
             border-width: 3px;
-            height: 50px;
+            height: 30px;
             width:0px;
             color:#b40060;
             border-style: solid;
             display:inline-block;
             position: absolute;
-    
     }
-    
     
     .heading53{
         display:inline-block;
-        padding-left: 58px;
-        font-size:26px;
-        padding-top: 45px;
+        padding-left: 4%;
+        font-size: 15px;
+        padding-top: 90px;
+
     }
     
       .circleEnglish,.circleUrdu,.circlePunjabi,.circleEnglishOver,.circleUrduOver,.circlePunjabiOver{
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         border-style: solid;
-        border-width: 6px;
+        border-width: 4px;
         border-color: #000000;
         border-top-color: transparent;
         transform:rotate(-45deg);
@@ -1315,11 +1338,11 @@ button:hover{
     }
     
     .circleMid5{
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         border-style: solid;
-        border-width: 6px;
+        border-width: 4px;
         border-color:#ED007F;
         border-top-color: transparent;
         transform:rotate(45deg);
@@ -1342,54 +1365,45 @@ button:hover{
     .englishText,.urduText,.punjabiText{
         display: inline-block;
         font-weight: 900;
-        margin-top: 28px;
-        margin-left: 22px;
+        margin-top: 22px;
+        margin-left: 18px;
         width: 50px;
         color: #5e0032;
+        font-size: 10px;
     }
     
     .englishText{
-        margin-top: 28px;
-        margin-left: 15px;
+        margin-left: 14px;
     }
     
     .punjabiText{
-        margin-top: 28px;
         margin-left:13px;
     }
-    
-    
+
     .Urdu,.English,.Punjabi{
+        margin-top: 10px;
         display: inline-block;
-        width: 120px;
+        width: 7px;
         margin-left: 20px;
     }
     
-    
     .Urdu{
-        margin-left: 50px;
+        margin-left: 5%;
     }
     
     .English{
-        margin-left: 0px;
+        margin-left: 16%;
     }
     
     .Punjabi{
-        margin-left: 0px;
+        margin-left: 16%;
     }
-    
-    
-    .info5{
-        margin-top: 6%;
-        display:inline-block;
-        width: 50%;  
-    }
-    
+
     .Page5{
         border-color: rgb(255, 255, 255);
         background-color: white;
-        height: 835px;
-        background-image: url("WhiteArt1.png");
+        height: 640px;
+        background-image: none;
         background-position: 0%;
         background-origin:border-box ;
         background-position-x: center ;
@@ -1397,11 +1411,14 @@ button:hover{
         background-position: top;
         background-size: 100%;
     }
+
     /*footerbox*/
     .FooterBox{
+        padding-top: 20px;
         border-color: #0E0E0E;
         background-color: rgb(14, 14, 14);
-        height: 500px;
+        height: 480px;
+
     }
     
     .logoPart6{
@@ -1411,76 +1428,76 @@ button:hover{
     }
     
     .whiteLogo6{
-        margin-top: 30px;
-        width:65px;
+        margin-top: 1%;
+        width:32px;
         display: inline-block;
-    
     }
     
     .BTed6{
-        margin-top: 65px;
+        margin-top: 25px;
         margin-right: 4px;
         margin-left: 6px;
         color: #ED007F;
         display:inline-block;
-        font-size: 34px;
+        font-size: 20px;
         font-weight: 900;
     }
     
     .whiteR6{
-        margin-top: 45px;
-        width: 15px;
+        margin-top: 17px;
+        width: 8px;
     }
     
     .text6{
-        font-size: 15px;
-        width:340px;
-        margin-left: 75px;
+        font-size: 50%;
+        width: 180px;
+        margin-left: 7px;
         text-align: justify;
         color: white;
         line-height: 2;
     }
     
     .leftBox6{
-        margin-left:20px;
+        margin-left: 20px;
         float: left;
     }
     
     .MailLogo,.phone1Logo,.phone2Logo,.locationLogo,.earthLogo{
-        width: 45px;
+        width: 20px;
     }
     
     .email6,.no6,.no62,.loc6,.site6{
         color:white;
-        height: 17px;
+        height: 1px;
+        font-size: 8px;
     }
     
     .Mail,.phone1,.phone2,.location,.earth{
         display: flex;
         align-items: center;
         justify-content:flex-start;
-        gap:25px;
+        gap: 17px;
     }
     
     .contactMe6{
-        margin-top: 50px;
+        margin-top: 30px;
         color: white;
-        font-size: 30px;
+        font-size: 17px;
     }
+
     .middleBox6{
         margin-left: 10%;
         display:inline-block;
-        width: 400px;
+        width: 40%;
         align-items: center;
-        display: inline-block;
     }
     
     .rightBox6{
         display:inline-block;
-        position: absolute;
+        position: relative;
         margin-top: 0.5%;
-        width: 500px;
-        margin-left: 8%;
+        max-width: 400px;
+        margin-left: 0%;
     }
     
     
@@ -1488,33 +1505,40 @@ button:hover{
         display:inline-block;
         position: relative;
         margin-top: 45px;
-        width: 60px;
+        width: 45px;
     }
     
     .sendLogo6{
-        width:50px;
+        width:40px;
+        margin-left: 8%;
     }
     
     .feedbackText6,.globeText6{
         display: inline-block;
         color: white;
-        font-size: 30px;
+        font-size: 20px;
         position: absolute;
         padding-left: 10px;
         margin-top: 50px;
     }
     
     .pinkButton6,.pinkButton62{
-        margin-top: 40px;
+        margin-top: 20px;
         margin-left: 70px;
     }
     
+    .feedbackBox6,.joinCommunitykBox6{
+        margin-top: 8%;
+        display: inline-block;
+        width: 190px;
+
+    }
 
     .rights6{
-        font-size: 15px;
+        font-size: 10px;
         margin-top: 15px;
         margin-bottom: 15px;
-        margin-left: 41%;
+        margin-left: 31%;
         font-weight: 500;
     }
 
