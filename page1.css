@@ -1,3 +1,4 @@
+
 body{
     background-color: white;
     margin: 0px;
@@ -104,6 +105,8 @@ button:hover{
     display:inline-block;
     align-self: left;
     width: 50%;
+    position: absolute;
+    margin-left : 0%;
     border-right: 0%;
 }
 .im1{
@@ -756,7 +759,7 @@ button:hover{
     font-weight: 500;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
     body{
         background-color: white;
@@ -802,7 +805,7 @@ button:hover{
         padding-top: 5px;
         padding-bottom: 5px;
         text-align: center;
-        border-width: 1px;
+        border-width: 1.5px;
         font-size:8px;
         border-radius: 100px 0px;
         border-color: #b40060;
@@ -834,7 +837,7 @@ button:hover{
     .buttons1{
         margin-top: 3%; 
         position: absolute;
-        padding-left: 200px;
+        padding-left: 40%;
     }
     
    
@@ -878,7 +881,7 @@ button:hover{
     
     .pinkButton12{
         margin-top: 5%;
-        margin-left: 40%;
+        margin-left: 36%;
     }
 
     .top1{
@@ -889,9 +892,9 @@ button:hover{
     .midText1{
         position:absolute;
         padding-top: 90%;
-        padding-left: 15%;
+        padding-left: 14%;
         display: inline;
-        width: 70%;
+        width: 75%;
         border-right: 0%;
     }
     
@@ -899,7 +902,7 @@ button:hover{
         position: absolute;
         margin-top: 7%;
         width:78%;
-        padding-left: 13%;
+        padding-left: 14%;
     }
 
     .page1{
@@ -1015,7 +1018,7 @@ button:hover{
         padding-top: 8%;
         float:left;
         padding-right: 4%;
-        width: 40%;
+       width: 140px;
 
     }
     .verticleLineBlack3{
@@ -1050,11 +1053,14 @@ button:hover{
         display: inline-block;
         margin-top: 4.6%;
         margin-left: 0%;
+        max-width :180px;
+        letter-spacing:0px;
+
     }
 
     .points3{
         margin-top: 40%;
-        font-size: 6.4px;
+        font-size: 6.2px;
         font-weight: 900;
         line-height: 600%;
         padding-left: 25px;
@@ -1366,18 +1372,18 @@ button:hover{
         display: inline-block;
         font-weight: 900;
         margin-top: 22px;
-        margin-left: 18px;
+        margin-left: 16px;
         width: 50px;
         color: #5e0032;
         font-size: 10px;
     }
     
     .englishText{
-        margin-left: 14px;
+        margin-left: 150%;
     }
     
     .punjabiText{
-        margin-left:13px;
+        margin-left:10px;
     }
 
     .Urdu,.English,.Punjabi{
@@ -1388,15 +1394,15 @@ button:hover{
     }
     
     .Urdu{
-        margin-left: 5%;
+        margin-left: 4%;
     }
     
     .English{
-        margin-left: 16%;
+        margin-left: 14%;
     }
     
     .Punjabi{
-        margin-left: 16%;
+        margin-left: 14%;
     }
 
     .Page5{
@@ -1488,7 +1494,7 @@ button:hover{
     .middleBox6{
         margin-left: 10%;
         display:inline-block;
-        width: 40%;
+        width: 155px;
         align-items: center;
     }
     
@@ -1542,4 +1548,4 @@ button:hover{
         font-weight: 500;
     }
 
-}
+}    
