@@ -7,9 +7,11 @@ body{
 h1,p,button,li,h3{
     font-family: 'Noto Sans Miao', sans-serif;
 }
+
 img{
     width:80px;
 }
+
 .logoBlack{
     padding-top: 0%;
     display: block;
@@ -18,11 +20,12 @@ img{
     margin-top: 2%;
     margin-left: 1%;
 }
+
 .blackLogo1{
     float: left;
     width: 4.5%;
-    
 }
+
 .BTed1{
     font-size: 160%;
     float:left;
