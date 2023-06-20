@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/test/tt.html"
+    "livePreview.defaultPreviewPath": "/MyStory/myStory.html",
+    "liveServer.settings.port": 5502
 }
