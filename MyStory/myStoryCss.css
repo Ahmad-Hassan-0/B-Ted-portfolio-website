@@ -82,10 +82,37 @@ button:hover{
     width:109vw;
     position: absolute;
     margin-left: -1vw;
+    margin-top: 11vw;
 }
 
 .art{
     height:63vw;
+    margin-top:5vw;
 }
 
-my
+.myText{
+    margin-top: 4vw;
+    font-size: 4vw;
+    position: absolute;
+    border-width: 4vw;
+    color: transparent; /* Set the text color as transparent */
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    margin-left: 35vw;
+}
+
+.sLetter,.tLetter,.oLetter,.rLetter,.yLetter{
+    position: absolute;
+    font-size: 20vw;
+    font-weight: 900;
+    display: inline-block;
+    margin-top: 0.5vw;
+}
+
+.sLetter{
+    margin-left: 41vw;
+}
+
+
+
+
+
