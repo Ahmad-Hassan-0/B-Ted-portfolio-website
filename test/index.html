@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive HTML Modification Example</title>
+  <style>
+    /* Add your CSS styles and media queries here */
+    @media screen and (max-width: 600px) {
+      /* CSS rules for screens up to 600px wide */
+      #div1 {
+        display: block;
+      }
+      #div2 {
+        display: none;
+      }
+    }
+    @media screen and (min-width: 601px) {
+      /* CSS rules for screens wider than 600px */
+      #div1 {
+        display: none;
+      }
+      #div2 {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="div1">Div 1</div>
+  <div id="div2">Div 2</div>
+
+  <script>
+    // JavaScript code for modifying HTML based on media query
+    var div1 = document.getElementById('div1');
+    var div2 = document.getElementById('div2');
+
+    window.addEventListener('resize', function() {
+      if (window.innerWidth <= 500) {
+        div1.style.display = 'block';
+        div2.style.display = 'none';
+      } else {
+        div1.style.display = 'none';
+        div2.style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>

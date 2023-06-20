@@ -1,33 +1,29 @@
-
 body{
     background-color: white;
     margin: 0px;
     width: 100%;
 }
 h1,p,button,li,h3{
-    font-family: 'Noto Sans Miao', sans-serif;
+    font-family: 'Noto Sans Miao';
 }
-
 img{
     width:80px;
 }
-
 .logoBlack{
     padding-top: 0%;
     display: block;
-    margin-right: 100px;
-    border-right: 100px;
+    margin-right: 10vw;
+    border-right: 10vw;
     margin-top: 2%;
     margin-left: 1%;
 }
-
 .blackLogo1{
     float: left;
     width: 4.5%;
+    
 }
-
 .BTed1{
-    font-size: 160%;
+    font-size: 1.5vw;
     float:left;
     color: #b40060;
     margin-top: 1.2%;
@@ -43,14 +39,14 @@ button{
 background-color:white;
     color: #b40060;
     margin: 0px;
-    padding-left: 30px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-right: 30px;
+    padding-left: 2vw;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+    padding-right: 2vw;
     text-align: center;
-    border-width: 3px;
-    font-size: 15px;
-    border-radius: 100px 0px;
+    border-width: 0.2vw;
+    font-size: 0.9vw;
+    border-radius: 1000px 0px;
     border-color: #b40060;
     border-style:solid;
     font-weight: 700;
@@ -96,32 +92,34 @@ button:hover{
 
 
 .pinkButton1{
-    padding-left:40px ;
-    padding-right: 40px;
+    padding-left:2.5vw ;
+    padding-right: 2.5vw;
 }
 .buttons1{
     display: block;
-    padding-left: 69%;
+    padding-left: 64vw;
 }
+
 .midText1{
-    padding-top: 6%;
-    display:inline-block;
+    padding-top: 6vw;
+    /*display:inline-block;*/
+    padding-left: 6vw;
     align-self: left;
-    width: 50%;
+    width: 52%;
     position: absolute;
     margin-left : 0%;
     border-right: 0%;
 }
 .im1{
     font-weight: 1000;
-    font-size: 200%;
+    font-size: 2vw;
     color:#b40060;
     margin-bottom: 0%;
 }
 .AH1{
     width: 100%;
     margin-top: 0%;
-    font-size: 680%;
+    font-size: 6.6vw;
     font-weight: 900;
     padding-left: 4%;
     margin-bottom: 0%;
@@ -133,7 +131,7 @@ button:hover{
     margin-bottom: 2%;
     width: 100%;
     margin-top: 0%;
-    font-size: 300%;
+    font-size: 3vw;
     font-weight: 900;
     padding-left: 17%;
 }
@@ -142,13 +140,13 @@ button:hover{
     margin-bottom: 10%;
     width: 100%;
     margin-top: 0%;
-    font-size: 120%;
+    font-size: 1.1vw;
     font-weight: 900;
     padding-left: 18%;
     color:#ad005c;
 }
 .pinkButton12{
-    margin-left: 38%;
+    margin-left: 39%;
 }
 .ID1{
     width:35%;
@@ -163,7 +161,7 @@ button:hover{
 .title2{
     display: inline-block;
     color: white;
-    font-size: 260%;
+    font-size: 2.4vw;
     padding-left:33%;
     margin-bottom: 5%;
     margin-top: 0%;
@@ -172,7 +170,7 @@ button:hover{
 .description2{
     display: inline-block;
     color: white;
-    font-size: 120%;
+    font-size: 1.2vw;
     width:60%;
     padding-left:11%;
     margin-bottom: 8%;
@@ -186,6 +184,7 @@ button:hover{
     border-color: black;
     padding-bottom: 11%;
     background-color: black;
+    background: linear-gradient(black,rgb(0, 0, 51));
     background-position: 0%;
     background-origin:border-box ;
     background-position-x: center ;
@@ -202,28 +201,28 @@ button:hover{
 }
 
 /*Page 3 Starting*/
+
 .title31{
     display: inline-block;
-    font-size: 220%;
+    font-size: 2vw;
     padding-left: 36%;
-
     margin-bottom: 5%;
     margin-top: 0%;
 }
+
 .alnoor3,.PGC3,.air3{
     display:inline-block;
-    width:278px;
+    width:27%;
     align-items: center;
     align-content: center;
     margin-left: 2%;
-
-
 }
-.alnoorLogo3,.PGCLogo3,.airLogo3{
 
-    width:150px;
+.alnoorLogo3,.PGCLogo3,.airLogo3{
+    width:10vw;
     margin-left: 22%;
 }
+
 .Page3{
     padding-bottom: 10%;
 
@@ -236,6 +235,7 @@ button:hover{
 .alnoorText3,.PGCText3,.airText3{
     font-weight: 900;
     text-align: center;
+    font-size:1vw;
 }
 .logos3{
     margin-left: 3%;
@@ -251,10 +251,10 @@ button:hover{
 .verticleLineBlack3{
 
     margin-left: 2px;   
-    padding-top: 50px;
-    margin-top: 200px;
+    padding-top: 6vw;
+    margin-top: 12.5vw;
     border-width: 1px;
-    height: 400px;
+    height: 25vw;
     width:0px;
     color: black;
     position: absolute;
@@ -262,17 +262,17 @@ button:hover{
     display: inline-block;
 }
 .verticleLinePink3{
-
-        padding-top: 50px;
-        margin-top: 320px;
+        padding-top: 3.125vw;
+        margin-top: 20vw;
         border-width: 3px;
-        height: 50px;
+        height: 3.125vw;
         width:0px;
         color:#b40060;
         border-style: solid;
         display:inline-block;
         position: absolute;
 }
+
 .right3{
     display: inline-block;
     margin-top: 8%;
@@ -281,12 +281,12 @@ button:hover{
 }
 .points3{
     margin-top: 15%;
-    font-size: 86%;
+    font-size: 0.9vw;
     font-weight: 600;
     line-height: 200%;
 }
 .title32{   
-    font-size: 210%;
+    font-size: 2vw;
     padding-left: 22%;
 }
 
@@ -302,8 +302,8 @@ button:hover{
     background-position-x: center ;
     bottom: 500%;
     background-repeat: no-repeat;
-    background-size: 1584px;
-    height:841px;
+    background-size: 100vw;
+    height:52vw;
     background-position: top;
 
 }
@@ -315,28 +315,29 @@ button:hover{
 .title4{
     display:inline-block;
     padding-left:6%;
-    font-size:30px;
+    font-size:1.88vw;
     padding-top: 5%;
 }
 
 .skills4{
     padding-left: 7%;
-    font-size: 100%;
+    font-size: 1vw;
     line-height: 10%;
     font-weight: 500;
 }
 
 .line4{
     display:inline-block;
-    min-width: 15%;
+    min-width: 15vw;
 }
+
 .whiteLine{
     margin-top: 1%;
     display: inline-block;
-    width: 280px;
-    height: 12px;
+    width: 17.5vw;
+    height: 0.75vw;
     background: #D9D9D9;
-    border:50px;
+    border:3.125vw;
     border-color: #D9D9D9;
     border-radius: 3px;
     position: absolute;
@@ -345,8 +346,8 @@ button:hover{
 .Line1,.Line2,.Line3,.Line4,.Line5,.Line6,.Line7,.Line8,.Line9,.Line10,.Line11{
     display: inline-block;
     margin-top: 1%;
-    width: 30px;
-    height: 12px;
+    width: 12vw;
+    height: 0.75vw;
     background:#ED007F;
     border:50px;
     border-radius: 3px;
@@ -354,53 +355,53 @@ button:hover{
 }
 
 .Line1{
-    width: 280px;
+    width: 17.5vw;
 }
 
 .Line2{
-    width: 265px;
+    width: 16.6vw;
 }
 .Line3{
-    width: 260px;
+    width: 16.2vw;
 }
 .Line4{
-    width: 265px;
+    width: 16.52vw;
 }
 .Line5{
-    width: 240px;
+    width: 15vw;
 }
 .Line6{
-    width: 230px;
+    width: 14.3vw;
 }
 .Line7{
-    width: 210px;
+    width: 13.12vw;
 }
 .Line8{
-    width: 250px;
+    width: 15.65vw;
 }
 .Line9{
-    width: 230px;
+    width: 14.37vw;
 }
 .Line10{
-    width: 250px;
+    width: 15.62vw;
 }
 .Line11{
-    width: 250px;
+    width: 15.62vw;
 }
 
 .title42{
     display:inline-block;
     padding-left:6%;
-    font-size:25px;
-    padding-top: 5%;
+    font-size:1.5vw;
+    padding-top: 4vw;
 }
 
-  .circleCpp,.circlePython,.circleJava,.circleCppOver,.circlePythonOver,.circleJavaOver{
-    width: 70px;
-    height: 70px;
+.circleCpp,.circlePython,.circleJava,.circleCppOver,.circlePythonOver,.circleJavaOver{
+    width: 4.375vw;
+    height: 4.375vw;
     border-radius: 50%;
     border-style: solid;
-    border-width: 6px;
+    border-width: 0.38vw;
     border-color: #ED007F;
     border-top-color: transparent;
     transform:rotate(-45deg);
@@ -408,11 +409,11 @@ button:hover{
 }
 
 .circleMid{
-    width: 70px;
-    height: 70px;
+    width: 4.375vw;
+    height: 4.375vw;
     border-radius: 50%;
     border-style: solid;
-    border-width: 6px;
+    border-width: 0.38vw;
     border-color:#610034;
     border-top-color: transparent;
     transform:rotate(45deg);
@@ -434,49 +435,49 @@ button:hover{
 
 .cppLogo,.pythonLogo,.javaLogo{
     display: inline-block;
-    margin-top: 16px;
-    margin-left: 16px;
-    width: 50px;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    width: 3.125vw;
 }
 
 .pythonLogo{
-    width: 35px;
-    margin-top: 23px;
-    margin-left:23px;
+    width: 2.188vw;
+    margin-top: 1.44vw;
+    margin-left:1.44vw;
 }
 
 .javaLogo{
-    width: 60px;
-    margin-top: 6px;
-    margin-left:12px;
+    width: 3.75vw;
+    margin-top: 0.375vw;
+    margin-left:0.75vw;
 }
 
 
 .cpp,.python,.java{
     display: inline-block;
-    width: 150px;
-    margin-top: 5%;
+    width: 9.375vw;
+    margin-top: 4vw;
     position: absolute;
     margin-left: 10%;
 }
 
 
 .cpp{
-    margin-left: 5%;
+    margin-left: 5vw;
 }
 
 .python{
-    margin-left: 12%;
+    margin-left: 11.5vw;
 }
 
 .java{
-    margin-left: 19%;
+    margin-left: 18vw;
 }
 
 /*Starting page 5*/
 
 .heading5,.heading52{
-    font-size: 28px;
+    font-size: 1.7vw;
     margin-left: 20%;
     font-weight: 900;
 }
@@ -485,14 +486,14 @@ button:hover{
 }
 
 .heading52{
-    font-size: 28px;
+  
     margin-left: 6.5%;
     font-weight: 900;
 }
 
 .right5{
 
-    margin-left: 170px;
+    margin-left: 10.625vw;
     display: inline-block;
     position: absolute;
 }
@@ -504,62 +505,59 @@ button:hover{
 
 .applications5,.interests5{
 
-    font-size: 17px;
+    font-size: 1vw;
     line-height: 230%;
     font-weight: 700;
     margin-left: 12%;
-    width: 260px;
+    width: 16.25vw;
 }
 
 .interests5{
-
-    margin-left: 1px;
-
+    margin-left: 0px;
 }
 
 .verticleLineBlack5{
 
-    margin-left: 80px;   
+    margin-left: 5vw;   
     padding-top: 50px;
-    margin-top: 40px;
+    margin-top: 2.5vw;
     border-width: 1px;
-    height: 400px;
+    height: 25vw;
     width:0px;
     color: black;
     position: absolute;
     border-style: solid;
     display: inline-block;
 }
+
 .verticleLinePink5{
 
-        margin-left:78px;
-
-        padding-top: 50px;
-        margin-top: 180px;
+        margin-left:4.8125vw;
+        padding-top: 3.125vw;
+        margin-top: 11.12vw;
         border-width: 3px;
-        height: 50px;
+        height: 3.13vw;
         width:0px;
         color:#b40060;
         border-style: solid;
         display:inline-block;
         position: absolute;
-
 }
 
 
 .heading53{
     display:inline-block;
     padding-left: 58px;
-    font-size:26px;
+    font-size:1.62vw;
     padding-top: 45px;
 }
 
   .circleEnglish,.circleUrdu,.circlePunjabi,.circleEnglishOver,.circleUrduOver,.circlePunjabiOver{
-    width: 70px;
-    height: 70px;
+    width: 4.375vw;
+    height: 4.375vw;
     border-radius: 50%;
     border-style: solid;
-    border-width: 6px;
+    border-width: 0.36vw;
     border-color: #000000;
     border-top-color: transparent;
     transform:rotate(-45deg);
@@ -567,11 +565,11 @@ button:hover{
 }
 
 .circleMid5{
-    width: 70px;
-    height: 70px;
+    width: 4.375vw;
+    height: 4.375vw;
     border-radius: 50%;
     border-style: solid;
-    border-width: 6px;
+    border-width: 0.36vw;
     border-color:#ED007F;
     border-top-color: transparent;
     transform:rotate(45deg);
@@ -594,31 +592,38 @@ button:hover{
 .englishText,.urduText,.punjabiText{
     display: inline-block;
     font-weight: 900;
-    margin-top: 28px;
-    margin-left: 22px;
-    width: 50px;
+    margin-top: 1.375vw;
+    font-size: 1vw;
+    margin-left: 1.375vw;
+    width: 3.125vw;
     color: #5e0032;
 }
 
+.urduText{
+    margin-bottom:0px;
+    margin-top: 1.65vw;
+}
+
 .englishText{
-    margin-top: 28px;
-    margin-left: 15px;
+    margin-top: 1.65vw;
+    margin-left: 0.89vw;
 }
 
 .punjabiText{
-    margin-top: 28px;
-    margin-left:13px;
+    margin-top: 1.65vw;
+    margin-left:0.79vw;
 }
 
 
 .Urdu,.English,.Punjabi{
     display: inline-block;
-    width: 120px;
-    margin-left: 20px;
+    width: 7.5vw;
+    margin-left: 1.25vw;
 }
 
 .Urdu{
-    margin-left: 50px;
+    margin-left: 3.125vw;
+    margin-top:3%;
 }
 
 .English{
@@ -633,7 +638,7 @@ button:hover{
 .Page5{
     border-color: rgb(255, 255, 255);
     background-color: white;
-    height: 835px;
+    height: 50vw;
     background-image: url("WhiteArt1.png");
     background-position: 0%;
     background-origin:border-box ;
@@ -642,11 +647,12 @@ button:hover{
     background-position: top;
     background-size: 100%;
 }
+
 /*footerbox*/
 .FooterBox{
     border-color: #0E0E0E;
     background-color: rgb(14, 14, 14);
-    height: 500px;
+    height: 31vw;
 }
 
 .logoPart6{
@@ -656,66 +662,69 @@ button:hover{
 }
 
 .whiteLogo6{
-    margin-top: 30px;
-    width:65px;
+    margin-top: 1.875vw;
+    width:4.06vw;
     display: inline-block;
 
 }
 
 .BTed6{
-    margin-top: 65px;
-    margin-right: 4px;
-    margin-left: 6px;
+    margin-top: 4.6vw;
+    margin-right: 0.25vw;
+    margin-left: 0.375vw;
     color: #ED007F;
     display:inline-block;
-    font-size: 34px;
+    font-size: 2.125vw;
     font-weight: 900;
 }
 
 .whiteR6{
-    margin-top: 45px;
-    width: 15px;
+    margin-top: 3.35vw;
+    width: 0.9vw;
 }
 
 .text6{
-    font-size: 15px;
-    width:340px;
-    margin-left: 75px;
+    font-size: 0.9vw;
+    width:22vw;
+    margin-left: 4vw;
     text-align: justify;
     color: white;
     line-height: 2;
 }
 
 .leftBox6{
-    margin-left:20px;
+    margin-left:1vw;
     float: left;
 }
 
 .MailLogo,.phone1Logo,.phone2Logo,.locationLogo,.earthLogo{
-    width: 45px;
+    width: 2.4vw;
 }
 
 .email6,.no6,.no62,.loc6,.site6{
     color:white;
-    height: 17px;
+    height: 0.7vw;
+    font-size:1vw;
 }
 
 .Mail,.phone1,.phone2,.location,.earth{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content:flex-start;
-    gap:25px;
+    gap:2px;
 }
 
 .contactMe6{
-    margin-top: 50px;
+    margin-top: 4vw;
     color: white;
-    font-size: 30px;
+    font-size: 2vw;
+    font-weight:900;
 }
+
 .middleBox6{
-    margin-left: 10%;
+    margin-left: 10vw;
     display:inline-block;
-    width: 400px;
+    width: 25vw;
     align-items: center;
     display: inline-block;
 }
@@ -723,46 +732,59 @@ button:hover{
 .rightBox6{
     display:inline-block;
     position: absolute;
-    margin-top: 0.5%;
-    width: 500px;
-    margin-left: 8%;
+    margin-top: 2vw;
+    width: 22%;
+    margin-left: 8vw;
 }
 
 
 .sendLogo6,.globeLogo6{
     display:inline-block;
     position: relative;
-    margin-top: 45px;
-    width: 60px;
+    margin-top: 2.8125vw;
+    width: 3.75vw;
 }
 
 .sendLogo6{
-    width:50px;
+    width:3.125vw;
 }
 
 .feedbackText6,.globeText6{
     display: inline-block;
     color: white;
-    font-size: 30px;
+    font-size: 1.8vw;
     position: absolute;
     padding-left: 10px;
-    margin-top: 50px;
+    margin-top: 3.12vw;
 }
 
 .pinkButton6,.pinkButton62{
-    margin-top: 40px;
-    margin-left: 70px;
+    margin-top: 2vw;
+   margin-left: 4vw;
 }
 
+.pinkButton6{
+    margin-bottom:2vw;
+    margin-top: 2vw;
+}
+
+.pinkButton62{
+    margin-top: 2vw;
+    margin-left: 4vw;
+    margin-bottom:5vw;
+}
+
+
 .rights6{
-    font-size: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 41%;
+    font-size: 0.7vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 43.5%;
     font-weight: 500;
 }
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 600px) {
 
     body{
         background-color: white;
@@ -773,43 +795,43 @@ button:hover{
     }
   
     .logoBlack{
-        padding-top: 1%;
-        margin-top: 1%;
+        padding-top: 1vw;
+        margin-top: 1vw;
         display: inline-block;
         position: absolute;
     }
 
     .blackLogo1{
-        width: 10%;
+        width: 9.2vw;
         display: inline-block;
     }
     
     .BTed1{
-        font-size: 100%;
+        font-size: 4.4vw;
         float:left;
         font-weight: 900;
         color: #b40060;
-        margin-top: 1.3%;
+        margin-top: 1.3vw;
     }
 
     .R1{
-        padding-top:5.3%;
-        padding-left:0.21%;
+        padding-top:5vw;
+        padding-left:0.21vw;
         float: left;
-        width: 2%;
+        width: 2vw;
     }  
 
     button{
         background-color:white;
         color: #b40060;
         margin: 0px;
-        padding-right: 13px;
-        padding-left: 13px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-right: 3.15vw;
+        padding-left: 3.15vw;
+        padding-top: 1.25vw;
+        padding-bottom: 1.25vw;
         text-align: center;
-        border-width: 1.5px;
-        font-size:8px;
+        border-width: 0.38vw;
+        font-size:2vw;
         border-radius: 100px 0px;
         border-color: #b40060;
         border-style:solid;
@@ -833,31 +855,32 @@ button:hover{
 
     
     .pinkButton1{
-        padding-left:15px ;
-        padding-right: 15px;
+        padding-left:3.75vw ;
+        padding-right: 3.75vw.;
     }
 
     .buttons1{
-        margin-top: 3%; 
+        margin-top: 3vw; 
         position: absolute;
-        padding-left: 40%;
+        padding-left: 42vw;
     }
     
    
     .im1{
         font-weight: 1000;
-        font-size: 100%;
+        font-size: 5vw;
         color:#b40060;
         margin-bottom: 0%;
     }
     
     .AH1{
-        width: 100%;
+        width: 83vw;
         margin-top: 0%;
-        font-size: 250%;
+        font-size: 10.5vw;
         font-weight: 900;
-        padding-left: 4%;
+        padding-left: 4vw;
         margin-bottom: 0%;
+        display: inline-block;
     }
     
     .uI1{
@@ -866,7 +889,7 @@ button:hover{
         margin-bottom: 2%;
         width: 100%;
         margin-top: 0%;
-        font-size: 121%;
+        font-size: 5.1vw;
         font-weight: 900;
         padding-left: 12%;
     }
@@ -876,7 +899,7 @@ button:hover{
         margin-bottom: 6%;
         width: 100%;
         margin-top: 0%;
-        font-size: 70%;
+        font-size: 3vw;
         font-weight: 900;
         padding-left: 12.6%;
         color:#ad005c;
@@ -884,18 +907,18 @@ button:hover{
     
     .pinkButton12{
         margin-top: 5%;
-        margin-left: 36%;
+        margin-left: 30vw;
     }
 
     .top1{
         display: inline;
-        width:400px;
+        width:100vw;
     }
 
     .midText1{
         position:absolute;
-        padding-top: 90%;
-        padding-left: 14%;
+        padding-top: 91%;
+        padding-left: 8.8vw;
         display: inline;
         width: 75%;
         border-right: 0%;
@@ -903,9 +926,9 @@ button:hover{
     
     .ID1{
         position: absolute;
-        margin-top: 7%;
+        margin-top: 8%;
         width:78%;
-        padding-left: 14%;
+        padding-left: 12%;
     }
 
     .page1{
@@ -917,8 +940,8 @@ button:hover{
     .title2{
         display: inline-block;
         color: white;
-        font-size: 84%;
-        padding-left:35%;
+        font-size: 4vw;
+        padding-left:32%;
         margin-bottom: 20%;
         margin-top: 20%;
         padding-top: 18%;
@@ -926,17 +949,17 @@ button:hover{
     .description2{
         display: inline-block;
         color: rgb(255, 255, 255);
-        font-size: 8px;
-        width: 190px;
+        font-size: 1.7vw;
+        width: 40vw;
         letter-spacing: 0.5px;
         line-height: 4;
-        padding-left:12%;
+        padding-left:9vw;
         margin-bottom: 18%;
         text-align: justify ;
     }
     .pinkButton23{
         display: inline-block;
-        margin-left:38%;
+        margin-left:36%;
     }
 
     .Page2{
@@ -944,10 +967,10 @@ button:hover{
         background-position: right top;
         background-repeat: no-repeat;
         background-size: 40%;
-        background-position-y:200px ;
-        margin-top: 640px;
+        background-position-y:42vw ;
+        margin-top: 166vw;
         border-color: black;
-        height: 640px;
+        height: 160vw;
         padding-bottom: 15%;
         background-color: black;
     }
@@ -967,10 +990,10 @@ button:hover{
     /*Page 3 Starting*/
     .title31{
         display: inline-block;
-        font-size: 15px;
+        font-size: 3.67vw;
         padding-left: 17%;
-        margin-bottom: 0%;
-        margin-top: 0%;
+        margin-bottom: 5vw;
+        margin-top: 14vw;
     }
 
     .alnoor3,.PGC3,.air3{
@@ -982,24 +1005,28 @@ button:hover{
     }
 
     .alnoorLogo3,.PGCLogo3,.airLogo3{
-        margin-top: 36%;
-        width:78px;
-        /* margin-left: 22%; */
+        margin-top: 20%;
+        width:18vw;
+        margin-left: 9vw;
     }
 
+   /* .PGCLogo3{
+        margin-left: 20%;
+    } */
+    
     .Page3{
         padding-bottom: 20%;
         background-position: 0%;
-        background-origin:border-box ;
-        background-position-x: center ;
-        height: 640px;
+        background-origin:border-box;
+        background-position-x: center;
+        height: 160vw;
     }
     
     .alnoorText3,.PGCText3,.airText3{
 
         font-weight: 900;
         text-align: center;
-        font-size: 9px;
+        font-size: 2vw;
 
     }
     .alnoorText3{
@@ -1020,17 +1047,17 @@ button:hover{
     .left3{
         padding-top: 8%;
         float:left;
-        padding-right: 4%;
-       width: 140px;
+        padding-right: 0%;
+       width: 38vw;
 
     }
     .verticleLineBlack3{
-        margin-left: 1px;   
-        padding-top: 50px;
-        margin-top: 90px;
-        border-width: 0.03px;
+        margin-left: 2px;   
+        padding-top: 4vw;
+        margin-top: 47vw;
+        border-width: 1px;
       /*border-right: 0px;*/
-        height: 520px;
+        height: 91vw;
         width:0px;
         color: black;
         position: absolute;
@@ -1040,11 +1067,11 @@ button:hover{
 
     .verticleLinePink3{
     
-            margin-left: 0px;
+            margin-left: 0.25vw;
             padding-top: 50px;
-            margin-top: 180px;
+            margin-top: 60vw;
             border-width: 2px;
-            height: 120px;
+            height: 14vw;
             width:0px;
             color:#b40060;
             border-style: solid;
@@ -1055,22 +1082,22 @@ button:hover{
     .right3{
         display: inline-block;
         margin-top: 4.6%;
-        margin-left: 0%;
-        max-width :180px;
+        margin-left: 3%;
+        width :55.5vw ;
         letter-spacing:0px;
-
     }
 
     .points3{
         margin-top: 40%;
-        font-size: 6.2px;
+        font-size: 1.7vw;
         font-weight: 900;
-        line-height: 600%;
+        line-height: 400%;
         padding-left: 25px;
     }
     .title32{   
-        font-size: 15px;
+        font-size: 3.67vw;
         padding-left: 30%;
+        padding-top:14vw;
     }
     
     
@@ -1085,7 +1112,7 @@ button:hover{
         background-position-x: center ;
         background-repeat: no-repeat;
         background-size: 0px;
-        height:640px;
+        height:160vw;
         background-position: top;
     
     }
@@ -1097,25 +1124,28 @@ button:hover{
     .title4{
         display:inline-block;
         padding-left:40%;
-        font-size:20px;
-        padding-top: 5%;
+        font-size:4.2vw;
+        padding-top: 13%;
+        padding-bottom:4vw;
     }
     
     .skills4{
         padding-left: 7%;
-        font-size: 60%;
+        font-size: 2vw;
         line-height: 190%;
         font-weight: 500;
+        padding-bottom:4vw;
     }
     
     .line4{
         display:inline-block;
         min-width: 40%;
     }
+    
     .whiteLine{
         margin-top: 3%;
         display: inline-block;
-        width: 200px;
+        width: 43.478vw;
         height: 8px;
         background: #D9D9D9;
         border:50px;
@@ -1136,71 +1166,82 @@ button:hover{
         position: absolute;
     }
     
-    .Line1{
-        width: 200px;
+    .Line1 {
+        width: 43.478vw;
     }
     
-    .Line2{
-        width: 195px;
+    .Line2 {
+        width: 42.391vw;
     }
-    .Line3{
-        width: 180px;
+    
+    .Line3 {
+        width: 39.130vw;
     }
-    .Line4{
-        width: 185px;
+    
+    .Line4 {
+        width: 40.217vw;
     }
-    .Line5{
-        width: 160px;
+    
+    .Line5 {
+        width: 34.783vw;
     }
-    .Line6{
-        width: 150px;
+    
+    .Line6 {
+        width: 32.609vw;
     }
-    .Line7{
-        width: 130px;
+    
+    .Line7 {
+        width: 28.261vw;
     }
-    .Line8{
-        width: 170px;
+    
+    .Line8 {
+        width: 36.957vw;
     }
-    .Line9{
-        width: 150px;
+    
+    .Line9 {
+        width: 32.609vw;
     }
-    .Line10{
-        width: 170px;
+    
+    .Line10 {
+        width: 36.957vw;
     }
-    .Line11{
-        width: 170px;
+    
+    .Line11 {
+        width: 36.957vw;
     }
+
     
     .title42{
         display:inline-block;
         padding-left:6%;
-        font-size:16px;
+        font-size:3.5vw;
         padding-top: 5%;
     }
     
-      .circleCpp,.circlePython,.circleJava,.circleCppOver,.circlePythonOver,.circleJavaOver{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border-style: solid;
-        border-width: 4px;
-        border-color: #ED007F;
-        border-top-color: transparent;
-        transform:rotate(-45deg);
-        position: absolute;
-    }
-    
-    .circleMid{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border-style: solid;
-        border-width: 4px;
-        border-color:#610034;
-        border-top-color: transparent;
-        transform:rotate(45deg);
-        position: absolute;
-    }
+     .circleCpp, .circlePython, .circleJava, .circleCppOver, .circlePythonOver, .circleJavaOver {
+    width: 10.87vw;
+    height: 10.87vw;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1.086vw;
+    border-color: #ED007F;
+    border-top-color: transparent;
+    transform: rotate(-45deg);
+    position: absolute;
+}
+
+.circleMid {
+    width: 10.87vw;
+    height: 10.87vw;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1.086vw;
+    border-color: #610034;
+    border-top-color: transparent;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
     
     
     .circleCppOver{
@@ -1215,33 +1256,32 @@ button:hover{
         transform:rotate(-10deg);
     }
     
-    .cppLogo,.pythonLogo,.javaLogo{
+   .cppLogo, .pythonLogo, .javaLogo {
         display: inline-block;
-        margin-top: 14px;
-        margin-left: 14px;
-        width: 30px;
+        margin-top: 3.043vw;
+        margin-left: 2.5vw;
+        width: 7.2vw;
     }
     
-    .pythonLogo{
-        width: 25px;
-        margin-top: 17px;
-        margin-left: 17px;
+    .pythonLogo {
+        width: 6vw;
+        margin-top: 3.5vw;
+        margin-left: 3.3vw;
     }
     
-    .javaLogo{
-        width: 40px;
-        margin-top: 8px;
-        margin-left: 10px;
+    .javaLogo {
+        width: 9vw;
+        margin-top: 2.2vw;
+        margin-left: 2.174vw;
     }
     
-    
-    .cpp,.python,.java{
+    .cpp, .python, .java {
         display: inline-block;
-        width: 0px;
-        margin-top: 5%;
-        /* position: absolute; */
-        margin-left: 30px;
+        width: 0;
+        margin-top: 5vw;
+        margin-left: 6.522vw;
     }
+
    
     
     .cpp{
@@ -1259,24 +1299,30 @@ button:hover{
     /*Starting page 5*/
     
     .heading5,.heading52{
-        font-size: 20px;
+        margin-bottom:11vw;
+        font-size: 3.67vw;
         margin-left: 15%;
         font-weight: 900;
     }
 
     .left5,.right5{
-        margin-top: 10px;
+        margin-top: 10vw;
         display:inline-block;
     }
     
+    .left5{
+        margin-right:0vw;
+        margin-left:0%;
+    }
+    
     .heading52{
-        font-size: 21px;
-        margin-left: 23%;
+        font-size: 4vw;
+        margin-left: 12vw;
         font-weight: 900;
     }
     
     .right5{
-        margin-left: 0px;
+        margin-left: 4vw;
         float: right;
     }
 
@@ -1286,79 +1332,78 @@ button:hover{
     }
     
     .applications5,.interests5{
-        font-size: 10px;
+        font-size: 2.2vw;
         line-height: 350%;
         font-weight: 700;
-        margin-left: 5%;
-        width: 160px;
+        margin-left: 8vw;
+        width: 28vw;
+        padding-left:4vw;
     }
 
     .interests5{
-        margin-left: 13%;
-
-        width:78%;
+        margin-left: 11vw;
+        width:35vw;
     }
     
-    .verticleLineBlack5{
+   .verticleLineBlack5 {
+    margin-left: 6.2vw; 
+    padding-top: 18vw;
+    margin-top: 25.217vw;
+    border-width: 1px; 
+    height: 58.26vw;
+    width: 0;
+    color: black;
+    position: absolute;
+    border-style: solid;
+    display: inline-block;
+    }
 
-        margin-left: 10px;
-        padding-top: 50px;
-        margin-top: 110px;
-        border-width: 1px;
-        height: 330px;
-        width:0px;
-        color: black;
-        position: absolute;
+    .verticleLinePink5 {
+        margin-left: 5.7vw; 
+        padding-top: 10.87vw;
+        margin-top: 39.13vw; 
+        border-width: 2; 
+        height: 4.348vw; 
+        width: 0;
+        color: #b40060;
         border-style: solid;
         display: inline-block;
+        position: absolute;
     }
 
-    .verticleLinePink5{
-            margin-left:8px;
-            padding-top: 50px;
-            margin-top: 180px;
-            border-width: 3px;
-            height: 30px;
-            width:0px;
-            color:#b40060;
-            border-style: solid;
-            display:inline-block;
-            position: absolute;
-    }
-    
     .heading53{
         display:inline-block;
-        padding-left: 4%;
-        font-size: 15px;
+        padding-left: 6vw;
+        font-size: 3.5vw;
         padding-top: 90px;
 
     }
     
-      .circleEnglish,.circleUrdu,.circlePunjabi,.circleEnglishOver,.circleUrduOver,.circlePunjabiOver{
-        width: 50px;
-        height: 50px;
+      .circleEnglish, .circleUrdu, .circlePunjabi, .circleEnglishOver, .circleUrduOver, .circlePunjabiOver {
+        width: 10.87vw;
+        height: 10.87vw;
         border-radius: 50%;
         border-style: solid;
-        border-width: 4px;
+        border-width: 1.086vw;
         border-color: #000000;
         border-top-color: transparent;
-        transform:rotate(-45deg);
+        transform: rotate(-45deg);
         position: absolute;
     }
     
-    .circleMid5{
-        width: 50px;
-        height: 50px;
+    .circleMid5 {
+        width: 10.87vw;
+        height: 10.87vw;
         border-radius: 50%;
         border-style: solid;
-        border-width: 4px;
-        border-color:#ED007F;
+        border-width: 1.086vw;
+        border-color: #ED007F;
         border-top-color: transparent;
-        transform:rotate(45deg);
+        transform: rotate(45deg);
         position: absolute;
     }
     
-    
+        
     .circleUrduOver{
         transform:rotate(35deg);
     }
@@ -1371,47 +1416,48 @@ button:hover{
         transform:rotate(-10deg);
     }
     
-    .englishText,.urduText,.punjabiText{
+    .englishText, .urduText, .punjabiText {
+    display: inline-block;
+    font-weight: 900;
+    margin-top: 4.783vw;
+    margin-left: 4vw;
+    width: 10.87vw;
+    color: #5e0032;
+    font-size: 2.174vw;
+    }
+    
+    .englishText {
+        margin-left: 3vw;
+    }
+    
+    .punjabiText {
+        margin-left: 3vw;
+    }
+    
+    .Urdu, .English, .Punjabi {
+        margin-top: 2.174vw;
         display: inline-block;
-        font-weight: 900;
-        margin-top: 22px;
-        margin-left: 16px;
-        width: 50px;
-        color: #5e0032;
-        font-size: 10px;
-    }
-    
-    .englishText{
-        margin-left: 150%;
-    }
-    
-    .punjabiText{
-        margin-left:10px;
+        width: 0.761vw;
+        margin-left: 4.348vw;
     }
 
-    .Urdu,.English,.Punjabi{
-        margin-top: 10px;
-        display: inline-block;
-        width: 7px;
-        margin-left: 20px;
-    }
     
     .Urdu{
-        margin-left: 4%;
+        margin-left: 4vw;
     }
     
     .English{
-        margin-left: 14%;
+        margin-left: 14vw;
     }
     
     .Punjabi{
-        margin-left: 14%;
+        margin-left: 14vw;
     }
 
     .Page5{
         border-color: rgb(255, 255, 255);
         background-color: white;
-        height: 640px;
+        height: 160vw;
         background-image: none;
         background-position: 0%;
         background-origin:border-box ;
@@ -1423,10 +1469,10 @@ button:hover{
 
     /*footerbox*/
     .FooterBox{
-        padding-top: 20px;
+        padding-top: 5vw;
         border-color: #0E0E0E;
         background-color: rgb(14, 14, 14);
-        height: 480px;
+        height: 120vw;
 
     }
     
@@ -1438,47 +1484,47 @@ button:hover{
     
     .whiteLogo6{
         margin-top: 1%;
-        width:32px;
+        width:8vw;
         display: inline-block;
     }
     
     .BTed6{
-        margin-top: 25px;
-        margin-right: 4px;
-        margin-left: 6px;
+        margin-top: 6.25vw;
+        margin-right: 1vw;
+        margin-left: 1.5vw;
         color: #ED007F;
         display:inline-block;
-        font-size: 20px;
+        font-size: 5vw;
         font-weight: 900;
     }
     
     .whiteR6{
-        margin-top: 17px;
-        width: 8px;
+        margin-top: 4.25vw;
+        width: 2vw;
     }
     
     .text6{
-        font-size: 50%;
-        width: 180px;
-        margin-left: 7px;
+        font-size: 2.3vw;
+        width: 39.4vw;
+        margin-left: 1.75vw;
         text-align: justify;
         color: white;
         line-height: 2;
     }
     
     .leftBox6{
-        margin-left: 20px;
+        margin-left: 3.75vw;
         float: left;
     }
     
     .MailLogo,.phone1Logo,.phone2Logo,.locationLogo,.earthLogo{
-        width: 20px;
+        width: 5vw;
     }
     
     .email6,.no6,.no62,.loc6,.site6{
         color:white;
-        height: 1px;
-        font-size: 8px;
+        height: 0.25vw;
+        font-size: 2vw;
     }
     
     .Mail,.phone1,.phone2,.location,.earth{
@@ -1489,66 +1535,84 @@ button:hover{
     }
     
     .contactMe6{
-        margin-top: 30px;
+        margin-top: 7.5vw;
         color: white;
-        font-size: 17px;
+        font-size: 4.25vw;
     }
 
     .middleBox6{
-        margin-left: 10%;
+        margin-left: 8%;
         display:inline-block;
-        width: 155px;
+        width: 38.75vw;
         align-items: center;
     }
     
     .rightBox6{
         display:inline-block;
-        position: relative;
-        margin-top: 0.5%;
-        max-width: 400px;
-        margin-left: 0%;
+       /* position: relative;*/
+        margin-top: 0.5vw;
+        max-width: 100vw;
+        margin-left: -93vw;
     }
     
     
     .sendLogo6,.globeLogo6{
         display:inline-block;
         position: relative;
-        margin-top: 45px;
-        width: 45px;
+        margin-top: 11.3vw;
+        width: 9vw;
     }
     
     .sendLogo6{
-        width:40px;
-        margin-left: 8%;
+        width:8vw;
+        margin-left: 8vw;
     }
     
     .feedbackText6,.globeText6{
         display: inline-block;
         color: white;
-        font-size: 20px;
+        font-size: 4vw;
         position: absolute;
-        padding-left: 10px;
-        margin-top: 50px;
+        padding-left: 2vw;
+        margin-top: 12vw;
+    }
+    
+    .feedbackText6{
+        padding-left: 1vw;
     }
     
     .pinkButton6,.pinkButton62{
-        margin-top: 20px;
-        margin-left: 70px;
+        margin-top: 4vw;
+        margin-left: 17vw;
+    }
+
+    .feedbackBox6,.joinCommunitykBox6{
+        margin-top: 75vw;
+       /* display: inline-block;*/
+        position:absolute;
+        width: 44vw;
     }
     
-    .feedbackBox6,.joinCommunitykBox6{
-        margin-top: 8%;
-        display: inline-block;
-        width: 190px;
-
+    .joinCommunitykBox6{
+        margin-left:53vw;
     }
 
     .rights6{
-        font-size: 10px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 31%;
+        font-size: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        margin-left: 30vw;
         font-weight: 500;
     }
 
-}    
+}
+
+@media screen and (min-width: 413px ) and (max-width: 415px) {
+    
+       .alnoorText3,.PGCText3,.airText3,.right3{
+        letter-spacing:-1px;
+    }
+    h1,h3{
+        letter-spacing:-1px;
+    }
+}

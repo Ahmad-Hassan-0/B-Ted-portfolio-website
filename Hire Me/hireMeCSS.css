@@ -1,0 +1,127 @@
+body{
+    color: black;
+    background: linear-gradient(black 70%,rgb(0, 0, 51) );
+    background-size: 100vw 120vh;
+    background-repeat:repeat;
+    font-family: 'Fira Code', monospace;
+    color: white;
+}
+
+pre{
+    padding-top: 3%;
+    display: inline-block;
+    width: 42vw;
+    font-family: 'Fira Code', monospace;
+    font-size: 1.1vw;
+}
+
+.rightBox{
+    width: 48vw;
+    position: absolute;
+    padding-top: 4%;
+    display: inline-block;
+    margin-left: 8vw;
+
+}
+
+.title{
+    font-size: 2.2vw;
+    margin-bottom: 1vw;
+    margin-top: 0vw;
+}
+
+.firstName,.lastName,.email,.projectType,.estimatedTime,.budget,.projectDescription{
+    font-size: 1vw;
+    display: block;
+    height: 3.5vw;
+}
+
+.checkText{
+    font-size: 1vw;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 5vw;
+}
+
+.firstNameBox,.lastNameBox,.emailBox,.projectTypeBox,.estimatedTimeBox,.budgetBox,.projectDescriptionBox{
+    font-size: 1.2vw;
+    width:45%;
+}
+
+.projectDescriptionBox{
+    width: 80%;
+}
+
+.conformBar{
+width: 100%;
+}
+
+.firstNameField,.lastNameField,.emailField,.projectTypeField,.estimatedTimeField,.budgetField,.projectDescriptionField{
+    display: block;
+    height: 2vw;
+    width: 17vw;
+    border-radius: 0.2vw;
+    border-width: 0vw;
+}
+
+.projectDescriptionField{
+    width: 38.8vw;
+    height: 9vw;
+}
+
+.conformBar{
+    padding-top: 1vw;
+}
+.checkButton{
+    width: 1vw;
+    transform: scale(1.2);
+    border-width: 0vw;
+    accent-color:#C30068;
+    cursor: pointer; /* Optionally, change the cursor on hover */
+}
+
+.submitButton{
+        padding-left: 2.5vw;
+        padding-top: 0.6vw;
+        padding-bottom: 0.6vw;
+        padding-right: 2.5vw;
+        border-width: 0.2vw;
+        font-size: 0.9vw;
+        border-radius: 1000px 0px;
+        border-color: #a8005a;
+        border-style:solid;
+        font-weight: 700;
+        cursor: pointer;
+        overflow: hidden;
+        z-index: 1;
+        transition: transform 0.3s ease-in-out;
+        background-color:#b40060;
+        color: #ffffff;
+        font-family: 'Noto Sans Miao';
+    }
+    
+    
+    
+.submitButton:hover{        
+    background-color:#000000;
+    color: white;
+    border-style:solid;
+    transition: 600ms;
+    transform: scale(1.1);
+}
+
+footer{
+    
+    font-family: 'Noto Sans Miao';
+    margin-top: 5vw;
+    margin-left: 39vw;
+    font-size: 1vw;
+    letter-spacing: 90%;
+}
+
+@media screen and (max-width: 600px) {
+
+}
