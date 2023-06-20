@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(black,blue,black);
+    font-size: 1vw;
+    color: white;
+    width: 100px;
+    font-family: 'Noto Sans Miao';
+}
+
+.whiteLogo{
+    width:3.5vw;
+    width: 3.68421053;
+}
+
+.bted{
+    font-size: 1.8vw;
+    margin-top: 2vw;
+    color:#D11D58;
+    font-weight:900;
+    margin-left: 0.14vw; 
+}
+
+.whiteR{
+    width:0.8vw;
+    padding-top: 0.8vw;
+    margin-left: 0.2vw; 
+}
+
+.logoLeft{
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1vw; 
+}
+
+
+
+
+button{
+        padding-left: 2.5vw;
+        padding-top: 0.6vw;
+        padding-bottom: 0.6vw;
+        padding-right: 2.5vw;
+        border-width: 0.2vw;
+        font-size: 0.9vw;
+        border-radius: 1000px 0px;
+        border-color: #a8005a;
+        border-style:solid;
+        font-weight: 700;
+        cursor: pointer;
+        overflow: hidden;
+        z-index: 1;
+        transition: transform 0.3s ease-in-out;
+        background-color:#b40060;
+        color: #ffffff;
+        font-family: 'Noto Sans Miao';
+    }
+    
+    
+    
+button:hover{        
+    background-color:#000000;
+    color: white;
+    border-style:solid;
+    transition: 600ms;
+    transform: scale(1.1);
+}
+
