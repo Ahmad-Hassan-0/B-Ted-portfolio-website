@@ -1,9 +1,13 @@
 body{
-    background: linear-gradient(black,blue,black);
+    background: linear-gradient(#000000 3vw,#080625 21vw,#080625 122vw,#000000 295vw);
     font-size: 1vw;
     color: white;
-    width: 100px;
     font-family: 'Noto Sans Miao';
+}
+
+
+img{
+    width:40vw;
 }
 
 .whiteLogo{
@@ -26,7 +30,7 @@ body{
 }
 
 .logoLeft{
-    width: 15vw;
+    width: 97vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -36,9 +40,6 @@ body{
     padding-left: 1vw; 
 }
 
-
-
-
 button{
         padding-left: 2.5vw;
         padding-top: 0.6vw;
@@ -47,16 +48,17 @@ button{
         border-width: 0.2vw;
         font-size: 0.9vw;
         border-radius: 1000px 0px;
-        border-color: #a8005a;
+        border-color: #D11D58;
         border-style:solid;
         font-weight: 700;
         cursor: pointer;
         overflow: hidden;
         z-index: 1;
         transition: transform 0.3s ease-in-out;
-        background-color:#b40060;
+        background-color:#D11D58;
         color: #ffffff;
         font-family: 'Noto Sans Miao';
+        display: inline-block;
     }
     
     
@@ -69,3 +71,21 @@ button:hover{
     transform: scale(1.1);
 }
 
+.buttonBar{
+    display:inline-block;
+    width:28vw;
+    margin-left: 59vw;
+}
+
+
+.hills{
+    width:109vw;
+    position: absolute;
+    margin-left: -1vw;
+}
+
+.art{
+    height:63vw;
+}
+
+my
