@@ -3,6 +3,11 @@ body{
     font-size: 1vw;
     color: white;
     font-family: 'Noto Sans Miao';
+    margin: 0;
+    border: 0%;
+    border: 0;
+    height: 100vh;
+    
 }
 
 
@@ -79,40 +84,61 @@ button:hover{
 
 
 .hills{
-    width:109vw;
+    width:100%;
     position: absolute;
-    margin-left: -1vw;
+    margin-left: 0vw;
     margin-top: 11vw;
 }
 
 .art{
     height:63vw;
-    margin-top:5vw;
+    margin-top:4vw;
+    width: 97vw;
 }
 
 .myText{
     margin-top: 4vw;
     font-size: 4vw;
-    position: absolute;
+    position: absolute; 
     border-width: 4vw;
-    color: transparent; /* Set the text color as transparent */
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
     margin-left: 35vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
 }
 
 .sLetter,.tLetter,.oLetter,.rLetter,.yLetter{
     position: absolute;
     font-size: 20vw;
-    font-weight: 900;
+    font-weight: 700;
     display: inline-block;
-    margin-top: 0.5vw;
+    margin-top: 2vw;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .sLetter{
-    margin-left: 41vw;
+    margin-left: 40vw;
 }
 
+.tLetter{
+    margin-left: 52vw;
+    margin-top: 4.75vw;
+}
 
+.oLetter{
+    margin-left: 61vw;
+    margin-top: 3.8vw;
+}
 
+.rLetter{
+    margin-left: 74vw;
+    margin-top: 4.8vw;
+}
 
+.yLetter{
+    margin-left: 85vw;
+    margin-top: 0vw;
+}
 
