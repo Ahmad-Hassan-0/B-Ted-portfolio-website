@@ -249,16 +249,16 @@ footer{
     padding-bottom: 1vw;
 }
 
-.quoteBox4{
+.quoteBox4,.quoteBox6{
     position: absolute;
     width: 26.5vw;
     padding-left: 0;
     margin-left: 64vw;
     border-width: 0.2vw;
     border-style:solid;
-    border-radius: 1.3vw;
+    border-radius: 1.2vw;
     font-family: 'Noto Sans Miao';
-    height: 3.9vw;
+    height: 3.7vw;
     border: 0.2vw solid transparent;
     background: linear-gradient(#b1b1b1,#ffffff0d) border-box;
     -webkit-mask: linear-gradient(#ffffff 0 0) padding-box, 
@@ -267,7 +267,7 @@ footer{
     mask-composite: exclude; /*5*/
 }
 
-.quote4,.quote6{
+.quote4,.quote6,.quote6_1{
     position: absolute;
     margin-left: 64vw;
     margin-top: 0.6vw;
@@ -280,4 +280,15 @@ footer{
     margin-bottom: 0;
     text-align: right;
     width: 24.2vw;
+}
+
+.quote6,.quote6_1{
+    margin-left: 66vw;
+    text-align:start;
+}
+
+.quote6_1{
+    margin-top: 2.2vw;
+    margin-left: 86.1vw;
+    width: 3vw;
 }
