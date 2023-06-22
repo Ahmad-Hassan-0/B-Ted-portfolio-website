@@ -1,0 +1,90 @@
+
+/**/
+body{
+    margin:0;
+    color:white;
+}
+
+img{
+    width:40px;
+}
+
+.page1{
+    overflow: hidden;
+    background: linear-gradient(-45deg,#100a33,#2B1A8B);
+    height: 50vw;
+}
+
+.phone1{
+    position:absolute;
+    width:34vw;
+}
+
+.phone2{
+    position:absolute;
+    width:30vw;
+    padding-top: 26.3vw;
+}
+
+.phone3{
+    position:absolute;
+    width:36vw;
+    top: 26.2vw;
+    right: 11vw;
+}
+
+.leftBox1{
+    float: right;
+}
+
+.tab{
+    float: right;
+    width: 43vw;
+    padding-left: 40%;
+    z-index: 0;
+}
+
+.window{
+    width: 25vw;
+    float: right;
+    clear: both;
+    position: absolute;
+    top: 26.82vw;
+    right: 0;
+}
+
+.watch{
+    position: absolute;
+    width:25vw;
+    top: 28vw;
+    left: 28vw;
+}
+
+.tagLine{
+    left:27.4vw;
+    top:5vw;
+    letter-spacing: 0.21vw;
+    position: absolute;
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Noto Sans Miao';
+    font-weight: 600;
+}
+
+.make,.em,.stare{
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+
+}
+
+.em{
+    font-size: 6vw;
+    border-width: 4vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke-width: 0.1vw;
+}
