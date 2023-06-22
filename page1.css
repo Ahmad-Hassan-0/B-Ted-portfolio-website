@@ -81,12 +81,12 @@ button:hover{
 }
 
 .pinkButton23:hover{
-    background-color:#000000;
+    background-color:transparent;
     color: white;
 }
 
 .pinkButton6:hover,.pinkButton62:hover{
-    background-color:#0a0a0a;
+    background-color:transparent;
     color: #ffffff;
 }
 
@@ -814,6 +814,32 @@ button:hover{
         margin-top: 1.3vw;
     }
 
+    button:hover{
+    
+        background-color:#b40060;
+        color: #ffffff;
+        border-color: #b40060;
+        border-style:solid;
+        transition: 600ms;
+        transform: scale(1.1);
+    }
+    
+    .pinkButton1:hover,.pinkButton12:hover{
+        background-color:white;
+        color: #b40060;
+    }
+    
+    .pinkButton23:hover{
+        background-color:transparent;
+        color: white;
+    }
+    
+    .pinkButton6:hover,.pinkButton62:hover{
+        background-color:transparent;
+        color: #ffffff;
+    }
+    
+
     .R1{
         padding-top:5vw;
         padding-left:0.21vw;
@@ -844,7 +870,6 @@ button:hover{
 
     
     button:hover{
-
     background-color:#b40060;
     color: #ffffff;
     border-color: #b40060;
@@ -971,6 +996,7 @@ button:hover{
         margin-top: 166vw;
         border-color: black;
         height: 160vw;
+        background: linear-gradient(black,rgb(0, 0, 51));
         padding-bottom: 15%;
         background-color: black;
     }
@@ -1014,6 +1040,31 @@ button:hover{
         margin-left: 20%;
     } */
     
+    button:hover{
+    
+        background-color:#b40060;
+        color: #ffffff;
+        border-color: #b40060;
+        border-style:solid;
+        transition: 600ms;
+        transform: scale(1.1);
+    }
+    
+    .pinkButton1:hover,.pinkButton12:hover{
+        background-color:white;
+        color: #b40060;
+    }
+    
+    .pinkButton23:hover{
+        background-color:transparent;
+        color: white;
+    }
+    
+    .pinkButton6:hover,.pinkButton62:hover{
+        background-color:transparent;
+        color: #ffffff;
+    }
+     
     .Page3{
         padding-bottom: 20%;
         background-position: 0%;
