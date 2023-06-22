@@ -2,14 +2,18 @@ body{
     background: linear-gradient(#000000 3vw,#080625 21vw,#080625 122vw,#000000 295vw);
     font-size: 1vw;
     color: white;
-    font-family: 'Noto Sans Miao';
     margin: 0;
     border: 0%;
     border: 0;
     height: 100vh;
-    
+    font-family: 'Noto Sans';
+    background-image: url("backStars.png");
+    background-size: 100%;
 }
 
+pre,h1,p{
+    font-family: 'Noto Sans', sans-serif;
+}
 
 img{
     width:40vw;
@@ -21,16 +25,16 @@ img{
 }
 
 .bted{
-    font-size: 1.8vw;
-    margin-top: 2vw;
+    font-size: 1.6vw;
+    margin-top: 2.2vw;
     color:#D11D58;
-    font-weight:900;
+    font-weight: 700;
     margin-left: 0.14vw; 
 }
 
 .whiteR{
     width:0.8vw;
-    padding-top: 0.8vw;
+    padding-top: 1vw;
     margin-left: 0.2vw; 
 }
 
@@ -69,7 +73,7 @@ button{
     
     
 button:hover{        
-    background-color:#000000;
+    background-color:transparent;
     color: white;
     border-style:solid;
     transition: 600ms;
@@ -90,8 +94,16 @@ button:hover{
     margin-top: 11vw;
 }
 
+.grad{
+    width: 100%;
+    height: 2vw;
+    margin-top: 50vw;
+    position: absolute;
+    background: linear-gradient(#0a062740,#0A0627 ,#0a062759 90% );
+}
+
 .art{
-    height:63vw;
+    height:55vw;
     margin-top:4vw;
     width: 97vw;
 }
@@ -101,10 +113,10 @@ button:hover{
     font-size: 4vw;
     position: absolute; 
     border-width: 4vw;
-    margin-left: 35vw;
+    margin-left: 34vw;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-color: #ffffff;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.1vw;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 900;
 }
@@ -116,6 +128,7 @@ button:hover{
     display: inline-block;
     margin-top: 2vw;
     font-family: 'Noto Sans', sans-serif;
+    text-shadow: 1px 0px rgb(0 0 0);
 }
 
 .sLetter{
@@ -142,3 +155,96 @@ button:hover{
     margin-top: 0vw;
 }
 
+
+.box1,.box2,.box3,.box4,.box5,.box6{
+    padding-left: 7vw;
+    padding-bottom: 3.5vw;
+}
+
+.glass1,.glass2,.glass3,.glass4,.glass5,.glass6{
+    width:13vw;
+    Height:3.8vw;
+    margin-left: 1vw;
+    margin-top: 0vw;
+    position: absolute;
+    opacity: 70%;
+    border-radius: 1.3vw;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.glass1{
+    width: 11vw;
+}
+
+.glass2{
+    width: 17.3vw;
+}
+
+.glass3{
+    width: 16.4vw;
+}
+
+.glass4{
+    width: 23vw;
+}
+
+.glass5{
+    width: 28vw;
+}
+
+.glass6{
+    width: 21vw;
+}
+
+.title1,.title2,.title3,.title4,.title5,.title6{
+    position: absolute;
+    font-size:1.2vw;
+    font-weight: 600;
+    margin-top: 1%;
+    padding-left: 3vw;
+    text-shadow: -2px 2px 8px rgb(0 0 0);
+}
+                
+.para1,.para2,.para3,.para4,.para5,.para6{
+    padding-top: 5.5vw;
+    width: 58vw;
+    font-weight: 550;
+    font-size: 0.9vw;
+    word-spacing: 0.4vw;
+    line-height: 1.8vw;
+    padding-left: 6vw;
+    text-align: justify;
+    text-indent: 3.9vw;
+    text-shadow: 1px 1px 0px rgb(0 0 0);
+    margin-bottom: 0;
+}
+
+.para1_1,.para3_1,.para3_2,.para4_1,.para4_2,.para5_1,.para5_2{
+    padding-top: 0.8vw;
+    width: 58vw;
+    font-size: 0.9vw;
+    font-weight: 550;
+    word-spacing: 0.3vw;
+    line-height: 1.8vw;
+    padding-left: 6vw;
+    text-align: justify;
+    text-indent: 3.9vw;
+    margin-bottom: 0;
+    text-shadow: 1px 0px rgb(0 0 0);
+}
+
+footer{
+    margin-top: 2vw;
+    width: 58vw;
+    margin-left: 20vw;
+    text-align:center ;
+    font-size: 0.9vw;
+    font-weight: 550;
+    word-spacing: 0.3vw;
+    line-height: 1.8vw;
+    text-shadow: 1px 0px rgb(0 0 0);
+}
+
+.copyRight{
+    padding-bottom: 1vw;
+}
