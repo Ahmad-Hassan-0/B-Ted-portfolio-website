@@ -248,3 +248,36 @@ footer{
 .copyRight{
     padding-bottom: 1vw;
 }
+
+.quoteBox4{
+    position: absolute;
+    width: 26.5vw;
+    padding-left: 0;
+    margin-left: 64vw;
+    border-width: 0.2vw;
+    border-style:solid;
+    border-radius: 1.3vw;
+    font-family: 'Noto Sans Miao';
+    height: 3.9vw;
+    border: 0.2vw solid transparent;
+    background: linear-gradient(#b1b1b1,#ffffff0d) border-box;
+    -webkit-mask: linear-gradient(#ffffff 0 0) padding-box, 
+                  linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor; /*5'*/
+    mask-composite: exclude; /*5*/
+}
+
+.quote4,.quote6{
+    position: absolute;
+    margin-left: 64vw;
+    margin-top: 0.6vw;
+    margin-bottom: 0.2vw;
+    font-weight: 550;
+    font-size: 0.8vw;
+    word-spacing: 0.4vw;
+    line-height: 1.5vw;
+    text-shadow: 1px 1px 0px rgb(0 0 0);
+    margin-bottom: 0;
+    text-align: right;
+    width: 24.2vw;
+}
