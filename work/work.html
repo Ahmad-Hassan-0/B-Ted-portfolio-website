@@ -20,10 +20,30 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Miao&family=Noto+Serif&family=Sevillana&family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
-    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+
 </head>
 
 <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script>
+      const elements = document.querySelectorAll('.gameTab1, .gameTab2, .gameTab3, .gameTab4, .gameTab5');
+  
+      function handleHoverTransition() {
+        // Apply the hover animation styles here
+      }
+  
+      const debouncedHoverTransition = _.debounce(handleHoverTransition, 200); // Adjust the debounce delay as needed
+  
+      elements.forEach((element) => {
+        element.addEventListener('mouseenter', debouncedHoverTransition);
+      });
+    </script>
 
 <div class="page1">
 <img class="phone1" src="phone1.png">
@@ -44,20 +64,20 @@
 
 <div class="section1">
 
-<div class="Box1">
+<div class="box1">
     <h2 class="title1">Cursed Tomorrow</h2>
     <p class="para1">An innovative horror game being developed using the C++ programming language along with various graphics and audio libraries within heavily incorporate object-oriented programming (OOP) concepts
- <br>
+ <br> <br>
     The storyline of the game revolves around an enigmatic and unsettling plot. As players advance through the game, they will discover themselves trapped within a succession of illusion-filled escape rooms, relentlessly pursued by an Unidentified and Ominous Creature</p>
 <button class="button1">Buy</button>
 </div>
 
 <div class="gameTabs">
  <img class="gameTab1" src="game1.png">
- <img class="gameTab1" src="game2.png">
- <img class="gameTab1" src="game3.png">
- <img class="gameTab1" src="game4.png">   
- <img class="gameTab1" src="game5.png"> 
+ <img class="gameTab2" src="game2.png">
+ <img class="gameTab3" src="game3.png">
+ <img class="gameTab4" src="game4.png">   
+ <img class="gameTab5" src="game5.png"> 
 </div>
 
 </div>

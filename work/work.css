@@ -2,7 +2,7 @@
 /**/
 body{
     margin:0;
-    color:white;
+    color:black;
 }
 
 img{
@@ -69,6 +69,7 @@ img{
     text-align: center;
     font-family: 'Noto Sans Miao';
     font-weight: 600;
+    color: white;
 }
 
 .make,.em,.stare{
@@ -82,9 +83,157 @@ img{
 }
 
 .em{
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
     font-size: 6vw;
     border-width: 4vw;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-color: #ffffff;
-    -webkit-text-stroke-width: 0.1vw;
+    -webkit-text-stroke-width: 0.2vw;
+    font-family: sans-serif;    
+}
+
+.pinkBar{
+    background: linear-gradient(black 13%,#ED007F 88%);
+    width: 10vw;
+    position: absolute;
+    margin-top: 0;
+    width: 100%;
+    height: 4vw;
+}
+
+.section1{
+    margin-top: 4vw;
+    font-family: 'Noto Sans';
+    display: block;
+    height: 82vw;
+}
+
+.box1{
+    margin-top: 30vw;
+    width: 51.4vw;
+    margin-left: 2vw;
+    float:left;
+}
+
+.title1{
+    font-size: 2.2vw;
+    margin-left: 15.8vw;
+    font-weight: 900;
+    letter-spacing: -0.07vw;
+}
+
+.para1{
+    margin-top: 4vw;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2vw;
+}
+
+button{
+    background-color:#b40060;
+        color: white;
+        margin: 0px;
+        padding-left: 2.9vw;
+        padding-right: 3vw;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        text-align: center;
+        border-width: 0.2vw;
+        font-size: 0.9vw;
+        border-radius: 1000px 0px;
+        border-color: #b40060;
+        border-style:solid;
+        font-weight: 700;
+        cursor: pointer;
+        overflow: hidden;
+        z-index: 1;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    button:hover{
+        background-color:transparent;
+        color: #b40060;
+        border-color: #b40060;
+        border-style:solid;
+        transition: 600ms;
+        transform: scale(1.1);
+    }
+
+.button1{
+    margin-left: 21.4vw;
+    margin-top: 2vw;
+}
+
+.gameTabs{
+    right:0;
+   /* width: 40vw; */
+   width: 58vw;
+    height: 71vw;
+    position: absolute;
+    overflow: hidden;
+}
+
+.gameTab1,.gameTab2,.gameTab3,.gameTab4,.gameTab5{
+    width: 50vw;
+    position: absolute;
+    rotate: -26deg;
+    height: 19vw;
+    width: 36vw;
+    margin-left: 28vw;
+    position: absolute;
+    /* width: 200px; */
+    /* height: 100px; */
+    /* display: inline-block; */
+    /* background: yellow; */
+   /* border: 1px solid black;*/
+    transform: skewX(28deg);
+    transition: 600ms; 
+}
+
+.gameTab1{
+    top: 18vw;
+    z-index: 5;
+}
+
+.gameTab2{
+    top: 25vw;
+    z-index: 4;
+}
+
+.gameTab3{
+    top: 32vw;
+    z-index: 3;
+}
+
+.gameTab4{
+    top: 39vw;
+    z-index: 2;
+}
+
+.gameTab5{
+    top: 46vw;
+    z-index: 1;
+}
+
+.gameTab1:hover,.gameTab2:hover,.gameTab3:hover,.gameTab4:hover,.gameTab5:hover{
+    rotate: 0deg;
+    z-index: 6;
+    height: 21vw;
+    transition: 600ms; 
+    margin-left: 13vw;
+    transform: scale(1.1);
+    /* -moz-transition-duration: 2s; */
+    /* transition-duration: 6100ms; */
+    transform: translateZ(0)
+}
+
+.section2{
+height: 82vw;
+}
+
+.
+
+.box2{
+
 }
