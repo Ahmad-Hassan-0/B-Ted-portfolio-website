@@ -69,10 +69,8 @@ button:hover{
     transform: scale(1.1);
 }
 
-  
-
 .pinkButton1,.pinkButton12,.pinkButton23,.pinkButton6,.pinkButton62{
-    background-color:#b40060;
+    background-color:#ca046e;
     color: #ffffff;
 }
 

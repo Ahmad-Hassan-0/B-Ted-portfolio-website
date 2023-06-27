@@ -18,20 +18,113 @@ img{
 .phone1{
     position:absolute;
     width:34vw;
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    -webkit-animation-duration: 9s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
+
+.slideInDown {
+    
+    }
+    @-webkit-keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    }
+    @keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+ } 
 
 .phone2{
     position:absolute;
     width:30vw;
     padding-top: 26.3vw;
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
+
+ @-webkit-keyframes slideInUp {
+    0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    }
+    @keyframes slideInUp {
+    0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(60%);
+
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+} 
+
 
 .phone3{
     position:absolute;
-    width:36vw;
-    top: 26.2vw;
+    width:35vw;
+    top: 27.3vw;
     right: 11vw;
+    -webkit-animation-name: slideInUp3;
+    animation-name: slideInUp3;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
+
+@-webkit-keyframes slideInUp3 {
+    0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    }
+    @keyframes slideInUp {
+    0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(60%);
+
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+} 
 
 .leftBox1{
     float: right;
@@ -49,9 +142,41 @@ img{
     float: right;
     clear: both;
     position: absolute;
-    top: 26.82vw;
+    top: 26.85vw;
     right: 0;
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
+
+
+    @-webkit-keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(200%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    } 
+
+
 
 .watch{
     position: absolute;
@@ -59,6 +184,7 @@ img{
     top: 28vw;
     left: 28vw;
 }
+
 
 .tagLine{
     left:27.4vw;
@@ -102,6 +228,14 @@ img{
     height: 4vw;
 }
 
+.whiteBar{
+    width: 95vw;
+    height: 34vw;
+    background-color: white;
+    padding-top: 12;
+    position: absolute;
+}
+
 .section1{
     margin-top: 4vw;
     font-family: 'Noto Sans';
@@ -116,18 +250,20 @@ img{
     float:left;
 }
 
-.title1{
+.title1,.title2,.title31,.title32{
     font-size: 2.2vw;
     margin-left: 15.8vw;
     font-weight: 900;
     letter-spacing: -0.07vw;
+    font-family: 'Noto Sans';
 }
 
-.para1{
+.para1,.para2,.para3{
     margin-top: 4vw;
     text-align: center;
     font-weight: 700;
     font-size: 1.2vw;
+    font-family: 'Noto Sans';
 }
 
 button{
@@ -169,7 +305,7 @@ button{
     right:0;
    /* width: 40vw; */
    width: 58vw;
-    height: 71vw;
+    height: 81vw;
     position: absolute;
     overflow: hidden;
 }
@@ -180,7 +316,7 @@ button{
     rotate: -26deg;
     height: 19vw;
     width: 36vw;
-    margin-left: 28vw;
+    margin-left: 30vw;
     position: absolute;
     /* width: 200px; */
     /* height: 100px; */
@@ -197,22 +333,22 @@ button{
 }
 
 .gameTab2{
-    top: 25vw;
+    top: 26vw;
     z-index: 4;
 }
 
 .gameTab3{
-    top: 32vw;
+    top: 33vw;
     z-index: 3;
 }
 
 .gameTab4{
-    top: 39vw;
+    top: 40vw;
     z-index: 2;
 }
 
 .gameTab5{
-    top: 46vw;
+    top: 47vw;
     z-index: 1;
 }
 
@@ -229,11 +365,254 @@ button{
 }
 
 .section2{
-height: 82vw;
+    margin-top: 12vw;
+    height: 54vw;
 }
 
-.
+
+.leftQuran,.rightQuran,.frontQuran{
+position: absolute;
+width: 26vw;
+}
+
+.leftQuranBox{
+    position: relative;
+    transform: skew(0deg, 12deg );
+    transform-style: preserve-3d;
+    perspective: 65vw;
+    z-index: 1;
+    transition: z-index 4001ms,transform 604ms;
+}
+
+.leftQuran{
+    /* transform: rotateY(60deg);
+    margin-top: 2vw;
+    margin-left: 14vw;
+    z-index: 8;*/
+    animation: scaleAnimationLeftRev 800ms forwards;
+}
+
+@keyframes scaleAnimationLeftRev {
+
+    0% {
+     margin-left: 14vw;
+    z-index: 12;
+    transform: rotateY(0deg); 
+    margin-top: -3vw;
+    transition: margin-top 60ms,transform 604ms, margin-top 600ms;
+    transform: scale(1.3);
+    }
+
+    60%{
+    margin-left: 6vw;
+    z-index: 12;
+    transition:margin-left 610ms;
+    }
+
+    100%{
+        margin-top: 2vw;
+        margin-left: 14vw;
+        z-index: 18;
+      transform: rotateY(60deg);
+      transition: z-index 600ms, margin-top 60ms,transform 604ms, margin-top 600ms;
+    }
+  }
+
+
+ .leftQuranBox:hover{
+
+    transform: skew(0deg, 00deg );
+    z-index: 6; 
+    transition: z-index 401ms,transform 604ms;
+.leftQuran{
+    /* transform: rotateY(0deg); */
+    /* margin-top: -3vw;*/
+    /* z-index: 8; */
+    animation: scaleAnimationLeft 800ms forwards;
+    /* transition: 600ms;  */
+    /* transform: scale(1.3); */ 
+    /* -moz-transition-duration: 2s; */
+    /* transition-duration: 6100ms; */
+    /* transition: z-index 600ms, margin-top 60ms,transform 604ms, margin-top 600ms; */
+}
+
+}
+
+@keyframes scaleAnimationLeft {
+
+    0%{
+        margin-top: 2vw;
+        margin-left: 14vw;
+        z-index: 8;
+      transform: rotateY(60deg);
+      transition: z-index 600ms, margin-top 60ms,transform 604ms, margin-top 600ms;
+    }
+
+  40% {
+    margin-left: 5vw;
+    /* transition:margin-left 610ms; */
+  }
+
+  100%{
+    margin-left: 14vw;
+    z-index: 8;
+    transform: rotateY(0deg); 
+    margin-top: -3vw;
+    transition: z-index 600ms, margin-top 60ms,transform 604ms, margin-top 600ms;
+    transform: scale(1.3);
+  }
+}
+
+.frontQuran{
+    margin-left: 35vw;
+    width: 30vw;
+    margin-top: -4vw;
+    z-index: 5;
+}
+
+.rightQuranBox{
+    position: relative;
+    transform: skew(0deg, -12deg );
+    transform-style: preserve-3d;
+    perspective: 65vw;
+    z-index: 4;
+    transition: z-index 1001ms,transform 604ms;
+}
+
+.rightQuran{
+    /* margin-top: 2.4vw;
+    margin-left: 60vw;
+    transform: rotateY(-60deg);
+    z-index: 6; */
+    animation: scaleAnimationRightRev 800ms forwards;
+}
+
+@keyframes scaleAnimationRightRev {
+
+    0% {
+        margin-left: 60vw;
+        z-index: 8;
+        transform: rotateY(0deg); 
+        margin-top: -3vw;
+        transition: z-index 600ms, margin-top 60ms,transform 604ms, margin-top 600ms;
+        transform: scale(1.3);
+    }
+
+    60%{
+    margin-left: 68vw;
+    transition:margin-left 610ms;
+    }
+
+    100%{
+        margin-top: 2.4vw;
+        margin-left: 60vw;
+        z-index: 6;
+      transform: rotateY(-60deg);
+      transition: z-index 600ms, margin-top 60ms,transform 604ms, margin-top 600ms;
+    }
+  }
+
+.rightQuranBox:hover{
+
+    transform: skew(0deg, 0deg );
+    z-index: 6; 
+    transition: z-index 401ms,transform 604ms;
+.rightQuran{
+    /* transform: rotateY(0deg); */
+    /* margin-top: -3vw;*/
+    /* z-index: 8; */
+    animation: scaleAnimationRight 900ms forwards;
+    /* transition: 600ms;  */
+    /* transform: scale(1.3); */ 
+    /* -moz-transition-duration: 2s; */
+    /* transition-duration: 6100ms; */
+    /* transition: z-index 600ms, margin-top 60ms,transform 604ms, margin-top 600ms; */
+}
+
+}
+
+@keyframes scaleAnimationRight {
+
+    0%{
+        margin-top: 2vw;
+        margin-left: 60vw;
+        z-index: 8;
+      transform: rotateY(-60deg);
+      transition: z-index 600ms, margin-top 60ms,transform 604ms, margin-top 600ms;
+    }
+
+  40% {
+    margin-left: 69vw;
+    /* transition:margin-left 610ms; */
+  }
+
+  100%{
+    margin-left: 60vw;
+    z-index: 8;
+    transform: rotateY(0deg); 
+    margin-top: -3vw;
+    transition: z-index 600ms, margin-top 60ms,transform 604ms, margin-top 600ms;
+    transform: scale(1.3);
+  }
+}
 
 .box2{
+    font-family: 'Noto Sans';
+    padding-top: 21vw;
+    width: 51.4vw;
+    margin-left: 23vw;
+}
 
+.title2{
+    margin-left: 14.5vw;
+}
+
+.para2{
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.button2{
+    margin-left: 22vw;
+    margin-top: 1vw;
+}
+
+
+.section3{
+    height: 25vw;
+}
+
+.title31{
+    margin-left: 33vw;
+font-size: 3vw;
+font-weight: 700;
+margin-bottom: 0;
+padding-top: 3vw;
+position: absolute;
+}
+
+.twist{
+    width: 100%;
+}
+
+.box3{
+margin-left: 24vw;
+position: absolute;
+margin-top: -6vw;
+width: 51.4vw;
+}
+
+.button3{
+    margin-top: 2vw;
+    margin-left: 21vw;
+}
+
+footer{
+    font-family: 'Noto Sans';
+    margin-top: 56vw;
+    font-weight: 500;
+    margin-left: 40vw;
+    /* font-family: 'Noto Sans Miao'; */
+    font-size: 0.9vw;
+    letter-spacing: 90%;
 }
