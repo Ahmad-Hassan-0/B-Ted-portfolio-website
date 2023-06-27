@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(black,rgb(0, 0, 51));
+    color: white;
+    background-repeat: repeat;
+    background-size: 100vw 100vh;
+    font-family: sans-serif;  
+}
+
+img{
+width: 20vw;
+}
+
+.whiteLogo{
+    width:3.5vw;
+    width: 3.68421053;
+}
+
+.bted{
+    font-size: 1.6vw;
+    margin-top: 2.2vw;
+    color:#D11D58;
+    font-weight: 700;
+    margin-left: 0.14vw; 
+}
+
+.whiteR{
+    width:0.8vw;
+    padding-top: 1vw;
+    margin-left: 0.2vw; 
+}
+
+.rightBted{
+    width: 785vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1vw; 
+}
+
+.backBox{
+    displ
+}
+
+.backArrow{
+    width: 2vw;
+}
+
+.stripe{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40vw;
+    /* height: 75vh; */
+}
+
