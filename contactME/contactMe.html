@@ -29,14 +29,11 @@
 
 <body>
 
-<div class="backBox">
-</a>
-
 </div>
 
-<div class="rightBted">
+<div class="topBar">
     <a href="destination-page.html"> <img class="backArrow" src="Back.png"> </a>
-    <a href="destination-page.html"> <p class="back">Back</p> </a>
+    <a href="javascript:history.go(-1)"> <p class="back">Back</p> </a>
     <img class="whiteLogo" src="Whitelogo.png">
     <p class="bted">B-Ted</p>
     <img class="whiteR" src="WhiteR.png">
@@ -47,7 +44,8 @@
 <div class="tagLine">
     <p class="getReady">GET READY</p>
     <br>
-    <p class="toLeaveEm">TO LEAVE 'EM</p>
+    <p class="toLeaveEm1">TO LEAVE 'EM</p>
+    <p class="toLeaveEm2">TO LEAVE 'EM</p>
     <br>
     <p class="speechless">SPEECHLESS<font color=ED007F>!!</font></p>
 </div>
@@ -56,19 +54,19 @@
  
     <form action="submit-form.php" method="POST">
 
-        <input type="text" id="name" name="name" placeholder="Name" required>
+        <input type="text" id="name" name="name" class="nameBar" placeholder="Name" required>
       
-        <input type="email" id="email" name="email" placeholder="Email" required>
+        <input type="email" id="email" name="email" class="emailBar" placeholder="Email" required>
       
-        <input type="text" id="message" name="message" placeholder="Hi Ahmad, I wanted to tell you that..." required>
+        <input type="text" id="message" name="message" class="messageBar" placeholder="Hi Ahmad, I wanted to tell you that..." required>
       
-        <input type="submit" value="Submit">
+        <input type="submit" class="button" value="Submit">
       </form> 
 
 </div>
 
 <footer>
-    <p>Copyright 2023 © <font color="ad005c"><b>B-Ted</b></font>. All rights reserved.</p>
+    <p>Copyright 2023 © <font color=ED007F><b>B-Ted</b></font>. All rights reserved.</p>
 </footer>
 
 
