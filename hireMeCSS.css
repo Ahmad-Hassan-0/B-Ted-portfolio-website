@@ -106,7 +106,7 @@ width: 100%;
     
     
 .submitButton:hover{        
-    background-color:#000000;
+    background-color:transparent;
     color: white;
     border-style:solid;
     transition: 600ms;
@@ -120,6 +120,33 @@ footer{
     margin-left: 39vw;
     font-size: 1vw;
     letter-spacing: 90%;
+}
+
+
+
+.circ {
+    opacity: 0;
+    stroke-dasharray: 130;
+    stroke-dashoffset: 130;
+    transition: all 1s;
+}
+
+.tick {
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    transition: stroke-dashoffset 1s 0.5s ease-out;
+}
+
+.drawn + svg .path {
+    opacity: 1;
+    stroke-dashoffset: 0;
+}
+
+.doneTick{
+    width: 25vw;
+    /* left:0vw ; */
+    position: absolute;
+    top: 10vw;
 }
 
 @media screen and (max-width: 600px) {
