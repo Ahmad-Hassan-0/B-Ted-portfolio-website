@@ -212,3 +212,26 @@ footer{
 }
 
 
+.circ {
+    opacity: 0;
+    stroke-dasharray: 130;
+    stroke-dashoffset: 130;
+    transition: all 1s;
+}
+
+.tick {
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    transition: stroke-dashoffset 1s 0.5s ease-out;
+}
+
+.drawn + svg .path {
+    opacity: 1;
+    stroke-dashoffset: 0;
+}
+
+.doneTick{
+    width: 25vw;
+    /* left:0vw ; */
+    position: absolute;
+}

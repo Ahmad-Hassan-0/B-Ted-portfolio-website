@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG Drawing</title>
+    <style>
+        body {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .trigger {
+            width: 200px;
+            height: 200px;
+        }
+
+        .tick path,
+        .circ path {
+            stroke-width: 5;
+        }
+
+        .rightForm {
+            margin-top: 20px;
+        }
+
+        .rightForm input[type="text"],
+        .rightForm input[type="email"],
+        .rightForm textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .rightForm input[type="submit"] {
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="trigger"></div>
+    <svg version="1.1" id="tick" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 37 37" style="enable-background:new 0 0 37 37;" xml:space="preserve">
+        <path class="circ path" style="fill:none;stroke:#000;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" d="
+            M30.5,6.5L30.5,6.5c6.6,6.6,6.6,17.4,0,24l0,0c-6.6,6.6-17.4,6.6-24,0l0,0c-6.6-6.6-6.6-17.4,0-24l0,0C13.1-0.2,23.9-0.2,30.5,6.5z"
+        />
+        <polyline class="tick path" style="fill:none;stroke:#000;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" points="
+            11.6,20 15.9,24.2 26.4,13.8 "/>
+    </svg>
+    
+    <div class="rightForm">
+        <form id="myForm" action="submit-form.php" method="POST">
+            <input type="text" id="name" name="name" class="nameBar" placeholder="Name" required>
+            <input type="email" id="email" name="email" class="emailBar" placeholder="Email" required>
+            <input type="text" id="message" name="message" class="messageBar" placeholder="Hi Ahmad, I wanted to tell you that..." required>
+            <input type="submit" id="drawButton" class="button" value="Submit">
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#drawButton").click(function (event) {
+                event.preventDefault(); // Prevent form submission
+                
+                var name = $("#name").val();
+                var email = $("#email").val();
+                var message = $("#message").val();
+
+                // Check if all fields are filled
+                if (name !== "" && email !== "" && message !== "") {
+                    $(".trigger").toggleClass("drawn");
+                    if ($(".trigger").hasClass("drawn")) {
+                        // Move the tick to the right
+                        $(".trigger").css("right", "37vw");
+                        
+                        setTimeout(function () {
+                            $(".trigger").removeClass("drawn");
+                            
+                            // Restore the tick to its original position
+                            $(".trigger").css("right", "");
+                        }, 2000);
+                    }
+
+                    // Clear form fields
+                    $("#myForm")[0].reset();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

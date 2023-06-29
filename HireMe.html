@@ -20,6 +20,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Miao&family=Noto+Serif&family=Sevillana&family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <script>
   var myDiv = document.getElementById('my-div');
 
@@ -74,7 +76,7 @@
     <p class="title">Lets Work Together </p>
 <div class="forms">
 
-    <form>
+    <form name="myForm" method="POST">
 
     <div class="firstNameBox">
     <label for="first-name" class="firstName">First Name</label>
@@ -118,17 +120,34 @@
 </div>
 
 
-    <input type="submit" value="Submit" class="submitButton">
-
+    <input type="submit" id="drawButton" value="submit" class="submitButton">
+  
     </form>
 
 </div>
 
 </div>
 
+<div class="doneTick">
+  <div class="trigger"></div>
+  <svg version="1.1" id="tick" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       viewBox="0 0 37 37" style="enable-background:new 0 0 37 37;" xml:space="preserve">
+      <path class="circ path" style="fill:none;stroke:#ED007F;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" d="
+          M30.5,6.5L30.5,6.5c6.6,6.6,6.6,17.4,0,24l0,0c-6.6,6.6-17.4,6.6-24,0l0,0c-6.6-6.6-6.6-17.4,0-24l0,0C13.1-0.2,23.9-0.2,30.5,6.5z"
+      />
+      <polyline class="tick path" style="fill:none;stroke:#ED007F;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" points="
+          11.6,20 15.9,24.2 26.4,13.8 "/>
+  </svg>
+</div>
+
 <footer>
     <p>Copyright 2023 © <font color="ad005c"><b>B-Ted</b></font>. All rights reserved.</p>
 </footer>
+
+
+
+
+<script src="hireMeJs.js" ></script>
 
 </div>
 
