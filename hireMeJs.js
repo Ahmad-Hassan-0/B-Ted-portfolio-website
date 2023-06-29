@@ -1,5 +1,5 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyRJtlAImuMUTKcev3D8jZ-0y9rka44Sde4yv-JCLn7fuVQ2eRCsvfETbOMmP6vViUzoA/exec'
-const form = document.forms['myForm']
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyYFhG-yV0vNvjFb8bIRXAWjBhuti5pz2OSWkScdiWqpNRNzBlhoMGB1VjPP_Y-YLCh/exec'
+const form = document.forms['thisForm']
 
 form.addEventListener('submit', e => {
   e.preventDefault()
