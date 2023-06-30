@@ -21,7 +21,7 @@ img{
 
 .whiteLogo{
     width:3.5vw;
-    width: 3.68421053;
+    padding-left: 1vw; 
 }
 
 .bted{
@@ -46,7 +46,6 @@ img{
     align-content: flex-start;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 1vw; 
 }
 
 button{
@@ -82,7 +81,7 @@ button:hover{
 
 .buttonBar{
     display:inline-block;
-    width:28vw;
+    width:27vw;
     margin-left: 59vw;
 }
 
@@ -253,7 +252,7 @@ footer{
     position: absolute;
     width: 26.5vw;
     padding-left: 0;
-    margin-left: 64vw;
+    right: 1%;
     border-width: 0.2vw;
     border-style:solid;
     border-radius: 1.2vw;
@@ -269,7 +268,7 @@ footer{
 
 .quote4,.quote6,.quote6_1{
     position: absolute;
-    margin-left: 64vw;
+    right: 3.6%;
     margin-top: 0.6vw;
     margin-bottom: 0.2vw;
     font-weight: 550;
@@ -283,12 +282,338 @@ footer{
 }
 
 .quote6,.quote6_1{
-    margin-left: 66vw;
+    right: 1.5%;
     text-align:start;
 }
 
 .quote6_1{
     margin-top: 2.2vw;
-    margin-left: 86.1vw;
+    right: 2.6%;
     width: 3vw;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    body{
+        background: linear-gradient(#000000 3vw,#080625 21vw,#080625 122vw,#000000 295vw);
+        font-size: 1vw;
+        color: white;
+        margin: 0;
+        border: 0%;
+        border: 0;
+        height: 100vh;
+        font-family: 'Noto Sans';
+        background-image: url("backStars.png");
+        background-size: 100%;
+    }
+    
+    pre,h1,p{
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    img{
+        width:40vw;
+    }
+    
+    .whiteLogo{
+        width:7.7vw;
+        padding-left: 1vw; 
+    }
+    
+    .bted{
+        font-size: 4vw;
+        margin-top: 4.78vw;
+        color:#D11D58;
+        font-weight: 700;
+        margin-left: 0.14vw; 
+    }
+    
+    .whiteR{
+        width:1.8vw;
+        padding-top: 2.1vw;
+        margin-left: 0.2vw; 
+    }
+    
+    .logoLeft{
+        width: 97vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    button{
+        padding-top: 0.9vw;
+        padding-bottom: 0.9vw;
+        padding-left: 3.4vw;
+        padding-right: 3.4vw;
+        border-width: 0.2vw;
+        font-size: 1.8vw;
+        border-radius: 1000px 0px;
+        border-color: #D11D58;
+        border-style:solid;
+        font-weight: 700;
+        cursor: pointer;
+        overflow: hidden;
+        z-index: 1;
+        transition: transform 0.3s ease-in-out;
+        background-color:#D11D58;
+        color: #ffffff;
+        font-family: 'Noto Sans Miao';
+        display: inline-block;
+        }
+        
+    button:hover{        
+        background-color:transparent;
+        color: white;
+        border-style:solid;
+        transition: 600ms;
+        transform: scale(1.1);
+    }
+    
+    .buttonBar{
+        display:inline-block;
+        width:43vw;
+        margin-left: 32vw;
+    }
+    
+    .hillsBox{
+        width: 100%;
+        height: 450vw;
+        position: absolute;
+        overflow: hidden;
+    }
+    .hills{
+        width:176vw;
+        position: absolute;
+        margin-left: 0vw;
+        margin-top: 50vw;
+    }
+    
+    .grad{
+        width: 100%;
+        height: 2vw;
+        margin-top: 120vw;
+        position: absolute;
+        /* background: linear-gradient(white,red); */
+        background: linear-gradient(#0a062740,#0A0627 ,#0a062759 90% );
+    }
+    
+    .art{
+        height:140vw;
+        margin-top:4vw;
+        width: 100%;
+    }
+    
+    .myText{
+        margin-top: 4vw;
+        font-size: 20vw;
+        position: absolute; 
+        border-width: 4vw;
+        margin-left: 36vw;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-color: #ffffff;
+        -webkit-text-stroke-width: 0.5vw;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 800;
+    }
+    
+    .sLetter,.tLetter,.oLetter,.rLetter,.yLetter{
+        position: absolute;
+        font-size: 36vw;
+        font-weight: 700;
+        display: inline-block;
+        margin-top: 9vw;
+        font-family: 'Noto Sans', sans-serif;
+        text-shadow: 1px 0px rgb(0 0 0);
+    }
+    
+    .sLetter{
+        margin-left: 2vw;
+        margin-top: 38.5vw;
+    }
+    
+    .tLetter{
+        margin-left: 22vw;
+        margin-top: 36vw;
+    }
+    
+    .oLetter{
+        margin-left: 61vw;
+        margin-top: 3.8vw;
+    display: none;
+    }
+    
+    .rLetter{
+        margin-left: 62.5vw;
+        margin-top: 30.1vw;
+    }
+    
+    .yLetter{
+        font-size: 35vw;
+        margin-left: 78vw;
+        margin-top: 25.6vw;
+    }
+    
+    .box1,.box2,.box3,.box4,.box5,.box6{
+        padding-left: 6vw;
+        padding-bottom: 3.5vw;
+        margin-bottom: 12vw ;
+    }
+    
+    .box3,.box5{
+        margin-bottom: 28vw;
+    }
+
+    .glass1,.glass2,.glass3,.glass4,.glass5,.glass6{
+        width:13vw;
+        Height:7vw;
+        margin-left: 0vw;
+        margin-top: 0vw;
+        position: absolute;
+        opacity: 70%;
+        border-radius: 1.3vw;
+        box-shadow: 0 8px 6px -6px black;
+    }
+    
+    .glass1{
+        width: 18.5vw;
+    }
+    
+    .glass2{
+        width: 32vw;
+    }
+    
+    .glass3{
+        width: 31vw;
+    }
+    
+    .glass4{
+        width: 44vw;
+    }
+    
+    .glass5{
+        width: 54.7vw;
+    }
+    
+    .glass6{
+        width: 39.5vw;
+    }
+    
+    .title1,.title2,.title3,.title4,.title5,.title6{
+        position: absolute;
+        font-size:2.7vw;
+        font-weight: 600;
+        margin-top: 1.5%;
+        padding-left: 2.5vw;
+        text-shadow: -2px 2px 8px rgb(0 0 0);
+    }
+                    
+    .para1,.para2,.para3,.para4,.para5,.para6{
+        padding-top: 10.5vw;
+        width: 77vw;
+        font-weight: 550;
+        font-size: 2vw;
+        word-spacing: 0.4vw;
+        line-height: 3.9vw;
+        padding-left: 4vw;
+        text-align: justify;
+        text-indent: 3.9vw;
+        text-shadow: 1px 1px 0px rgb(0 0 0);
+        margin-bottom: 0;
+    }
+    
+    .para1_1,.para3_1,.para3_2,.para4_1,.para4_2,.para5_1,.para5_2{
+        padding-top: 2vw;
+        width: 77vw;
+        font-size: 2vw;
+        font-weight: 550;
+        word-spacing: 0.3vw;
+        line-height: 3.9vw;
+        padding-left: 4vw;
+        text-align: justify;
+        text-indent: 3.9vw;
+        margin-bottom: 0;
+        text-shadow: 1px 0px rgb(0 0 0);
+    }
+    
+    footer{
+        margin-top: 20vw;
+        width: 84vw;
+        margin-left: 6vw;
+        text-align:center ;
+        font-size: 2vw;
+        font-weight: 550;
+        word-spacing: 0.3vw;
+        line-height: 4.2vw;
+        text-shadow: 1px 0px rgb(0 0 0);
+    }
+    
+    .copyRight{
+        padding-bottom: 3vw;
+    }
+    
+   
+.quoteBox4,.quoteBox6{
+    position: absolute;
+    width: 70.5vw;
+    padding-left: 0;
+    /* right: 1%; */
+    border-width: 0.1vw;
+    border-style:solid;
+    border-radius: 1.2vw;
+    font-family: 'Noto Sans Miao';
+    height: 9vw;
+    left: 13vw;
+    top: 363vw;
+    border: 0.2vw solid transparent;
+    background: linear-gradient(#b1b1b1,#ffffff0d) border-box;
+    -webkit-mask: linear-gradient(#ffffff 0 0) padding-box, 
+                  linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor; /*5'*/
+    mask-composite: exclude; /*5*/
+}
+
+
+.quoteBox6{
+    left: 10vw;
+    position: absolute;
+    width: 76vw;
+    top: 579vw;
+}
+
+.quote4,.quote6,.quote6_1{
+    position: absolute;
+    top: 363vw;
+    margin-bottom: 0.2vw;
+    font-weight: 550;
+    font-size: 2.3vw;
+    word-spacing: 0.4vw;
+    line-height: 4vw;
+    left: 6vw;
+    text-shadow: 1px 1px 0px rgb(0 0 0);
+    margin-bottom: 0;
+    text-align: right;
+    width: 70vw;
+}
+
+.quote6,.quote6_1{
+    top: 579vw;
+    width: 70vw;
+    left: 15vw;
+    text-align:start;
+}
+
+.quote6_1{
+    margin-top: 4.8vw;
+    left: 74vw;
+    width: 8vw;
+}
+
+
+
+    
 }
