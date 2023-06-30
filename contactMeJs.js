@@ -16,13 +16,14 @@ function tick(){
 
     if ($(".trigger").hasClass("drawn")) {
         $(".doneTick").css("left", "37vw");
+
         // event.preventDefault(); // Prevent form submission
                 setTimeout(function () {
                     $(".trigger").removeClass("drawn");
 
                     setTimeout(function () {
                     $(".doneTick").css("left", "0vw");
-
+                    $(".doneTick").css("bottom", "10vw");
                 }, 2000);
                 }, 2000);
     }  
