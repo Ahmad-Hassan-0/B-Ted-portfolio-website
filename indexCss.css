@@ -850,8 +850,8 @@ button:hover{
         background-color:white;
         color: #b40060;
         margin: 0px;
-        padding-right: 3.15vw;
-        padding-left: 3.15vw;
+        padding-right: 3.1vw;
+        padding-left: 3.1vw;
         padding-top: 1.25vw;
         padding-bottom: 1.25vw;
         text-align: center;
@@ -880,16 +880,15 @@ button:hover{
     
     .pinkButton1{
         padding-left:3.75vw ;
-        padding-right: 3.75vw.;
+        padding-right: 3.75vw;
     }
 
     .buttons1{
         margin-top: 3vw; 
         position: absolute;
-        padding-left: 42vw;
+        padding-left: 38vw;
     }
     
-   
     .im1{
         font-weight: 1000;
         font-size: 5vw;
