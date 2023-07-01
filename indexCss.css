@@ -154,6 +154,7 @@ button:hover{
 .Page1{
     display:inline-block;
 }
+
 /*Page 1 completed*/
 /*Starting Page No 2*/
 
@@ -166,6 +167,7 @@ button:hover{
     margin-top: 0%;
     padding-top: 18%;
 }
+
 .description2{
     display: inline-block;
     color: white;
@@ -175,6 +177,7 @@ button:hover{
     margin-bottom: 8%;
     text-align: justify ;
 }
+
 .pinkButton23{
     display: inline-block;
     margin-left:36%;
@@ -1001,9 +1004,9 @@ button:hover{
 
     .halfLogo2{
         position: absolute;
-        margin-left: 1%;
-        margin-top: 40%;
-        width: 0%;
+        right: 0;
+        margin-top: 40vw;
+        width: 42vw;
         float: right;
     }
     .box2{
