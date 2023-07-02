@@ -545,14 +545,19 @@ button:hover{
         display:inline-block;
         position: absolute;
 }
-
+/* 
+.linguistic5{
+    margin-top: 4.5vw;
+    left: 1vw;
+} */
 
 .heading53{
     display:inline-block;
-    padding-left: 58px;
+    padding-left: 4vw;
     font-size:1.62vw;
-    padding-top: 45px;
+    padding-top: 10vw;
 }
+
 
   .circleEnglish,.circleUrdu,.circlePunjabi,.circleEnglishOver,.circleUrduOver,.circlePunjabiOver{
     width: 4.375vw;
@@ -640,7 +645,7 @@ button:hover{
 .Page5{
     border-color: rgb(255, 255, 255);
     background-color: white;
-    height: 50vw;
+    height: 52vw;
     background-image: url("WhiteArt1.png");
     background-position: 0%;
     background-origin:border-box ;
@@ -655,6 +660,7 @@ button:hover{
     border-color: #0E0E0E;
     background-color: rgb(14, 14, 14);
     height: 31vw;
+    font-size: 1vw;
 }
 
 .logoPart6{
