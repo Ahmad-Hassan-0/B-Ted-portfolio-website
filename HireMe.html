@@ -45,34 +45,34 @@
 
 
 <pre>
-    <font color="C7C7C7">#include </font> <font color="FF9F68"> &lt;creativity.h&gt; </font>
-    <font color="C7C7C7">#include </font> <font color="FF9F68"> &lt;skills.h&gt; </font>
+<font color="C7C7C7">#include </font> <font color="FF9F68"> &lt;creativity.h&gt; </font>
+<font color="C7C7C7">#include </font> <font color="FF9F68"> &lt;skills.h&gt; </font>
         
-    <font color="5099FF">using namespace</font><font color="C7C7C7"> smartWork; </font>
+<font color="5099FF">using namespace</font><font color="C7C7C7"> smartWork; </font>
         
-    <font color="5099FF">class</font> <font color="45C9A8">Expert </font>
-    <font color="C7C7C7">{</font>
-            <font color="#5099FF"> private</font><font color="C7C7C7">:</font>
-            <font color="#45C9A8"> string </font> <font color="C7C7C7">plans;</font>
-            <font color="#45C9A8"> string </font> <font color="C7C7C7">goals;</font>
-            <font color="#5099FF"> double </font> <font color="C7C7C7">income;</font>
+<font color="5099FF">class</font> <font color="45C9A8">Expert </font>
+<font color="C7C7C7">{</font>
+       <font color="#5099FF">private</font><font color="C7C7C7">:</font>
+       <font color="#45C9A8">string </font> <font color="C7C7C7">plans;</font>
+       <font color="#45C9A8">string </font> <font color="C7C7C7">goals;</font>
+       <font color="#5099FF">double </font> <font color="C7C7C7">income;</font>
         
-            <font color="5099FF"> protected </font><font color="C7C7C7">:</font>
-            <font color="45C9A8">unique_ptr</font><font color="C7C7C7">&lt;</font><font color="5099FF">Method</font><font color="C7C7C7">&gt; trick = </font><font color="#DCD88A">make_unique</font><font color="C7C7C7">&lt;</font><font color="5099FF">Method</font><font color="C7C7C7">&gt;();</font>
+       <font color="5099FF">protected </font><font color="C7C7C7">:</font>
+       <font color="45C9A8">unique_ptr</font><font color="C7C7C7">&lt;</font><font color="5099FF">Method</font><font color="C7C7C7">&gt; trick = </font><font color="#DCD88A">make_unique</font><font color="C7C7C7">&lt;</font><font color="5099FF">Method</font><font color="C7C7C7">&gt;();</font>
         
-            <font color="5099FF">public</font><font color="C7C7C7">:</font>            
-            <font color="5099FF">Assign</font> <font color="#DCD88A">work</font><font color="C7C7C7">()</font>
-            <font color="C7C7C7">{</font>
-                <font color="#FF8FF0">while</font><font color="C7C7C7">(</font><font color="5099FF">true</font><font color="C7C7C7">)</font>
-                <font color="C7C7C7">{</font>
-                    <font color="C7C7C7">trick++;</font>
-                    <font color="C7C7C7">implement(</font><font color="5099FF">this</font><font color="C7C7C7">->trick);</font>
+       <font color="5099FF">public</font><font color="C7C7C7">:</font>            
+       <font color="5099FF">Assign</font> <font color="#DCD88A">work</font><font color="C7C7C7">()</font>
+       <font color="C7C7C7">{</font>
+           <font color="#FF8FF0">while</font><font color="C7C7C7">(</font><font color="5099FF">true</font><font color="C7C7C7">)</font>
+           <font color="C7C7C7">{</font>
+               <font color="C7C7C7">trick++;</font>
+               <font color="C7C7C7">implement(</font><font color="5099FF">this</font><font color="C7C7C7">->trick);</font>
 
-                    <font color="#FF8FF0">if</font><font color="C7C7C7"> (task == perfection)
-                        break;
-                }
-            }
-    };
+               <font color="#FF8FF0">if</font><font color="C7C7C7"> (task == perfection)
+                   break;
+           }
+        }
+};
         </font>
 </pre>
 
@@ -144,6 +144,9 @@
   </svg>
 </div>
 
+<button class="tab-button1 active" onclick="showDiv(1)"></button>
+<button class="tab-button2" onclick="showDiv(2)"></button>
+
 <footer>
     <p>Copyright 2023 © <font color="ad005c"><b>B-Ted</b></font>. All rights reserved.</p>
 </footer>
@@ -152,6 +155,44 @@
 
 
 <script src="hireMeJs.js" ></script>
+
+
+<script>
+  function showDiv(divNum) {
+
+    // var buttons = document.getElementsByClassName('tab-button');
+
+    
+    var button1 = document.querySelector('.tab-button1');
+    var button2 = document.querySelector('.tab-button2');
+    var pre = document.querySelector('pre');
+    var rightForm = document.querySelector('.rightBox');
+    
+    if (divNum == 1) {
+
+      pre.classList.add('show');
+      
+      rightForm.classList.remove('show');
+      rightForm.classList.add('remove');
+
+      button1.classList.add('active');
+      button2.classList.remove('active');
+
+    }
+    else if (divNum == 2) {
+
+      pre.classList.add('remove');
+      pre.classList.remove('show');
+      pre.classList.remove('pre');
+
+      rightForm.classList.add('show');
+
+      button2.classList.add('active');
+      button1.classList.remove('active');
+    }
+
+  }
+</script>
 
 </div>
 
