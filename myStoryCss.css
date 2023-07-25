@@ -7,7 +7,7 @@ body{
     border: 0;
     height: 100vh;
     font-family: 'Noto Sans';
-    background-image: url("backStars.png");
+    background-image: url("BackStars.png");
     background-size: 100%;
 }
 
@@ -16,7 +16,7 @@ pre,h1,p{
 }
 
 img{
-    width:40vw;
+    width:0vw;
 }
 
 .whiteLogo{
@@ -304,7 +304,7 @@ footer{
         border: 0;
         height: 100vh;
         font-family: 'Noto Sans';
-        background-image: url("backStars.png");
+        background-image: url("BackStars.png");
         background-size: 100%;
     }
     
@@ -313,7 +313,7 @@ footer{
     }
     
     img{
-        width:40vw;
+        width:0vw;
     }
     
     .whiteLogo{
@@ -375,9 +375,10 @@ footer{
     }
     
     .buttonBar{
-        display:inline-block;
-        width:43vw;
-        margin-left: 32vw;
+        position:absolute;
+        right:1.5vw;
+        width:43.3vw;
+        margin-left: 31.6vw;
     }
     
     .hillsBox{
@@ -558,7 +559,7 @@ footer{
     
    
 .quoteBox4,.quoteBox6{
-    position: absolute;
+    /* position: absolute; */
     width: 70.5vw;
     padding-left: 0;
     /* right: 1%; */
@@ -568,7 +569,7 @@ footer{
     font-family: 'Noto Sans Miao';
     height: 9vw;
     left: 13vw;
-    top: 363vw;
+    margin-top: -20vw;
     border: 0.2vw solid transparent;
     background: linear-gradient(#b1b1b1,#ffffff0d) border-box;
     -webkit-mask: linear-gradient(#ffffff 0 0) padding-box, 
@@ -580,14 +581,14 @@ footer{
 
 .quoteBox6{
     left: 10vw;
-    position: absolute;
+    /* position: absolute; */
     width: 76vw;
-    top: 579vw;
+    /* top: 579vw; */
 }
 
 .quote4,.quote6,.quote6_1{
-    position: absolute;
-    top: 363vw;
+    position: inline-block;
+    margin-top: -20vw;
     margin-bottom: 0.2vw;
     font-weight: 550;
     font-size: 2.3vw;
@@ -601,19 +602,16 @@ footer{
 }
 
 .quote6,.quote6_1{
-    top: 579vw;
+    /* top: 579vw; */
     width: 70vw;
     left: 15vw;
     text-align:start;
 }
 
 .quote6_1{
-    margin-top: 4.8vw;
+    margin-top: -16vw;
     left: 74vw;
     width: 8vw;
 }
-
-
-
     
 }

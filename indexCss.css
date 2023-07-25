@@ -7,14 +7,15 @@ h1,p,button,li,h3{
     font-family: 'Noto Sans Miao';
 }
 img{
-    width:80px;
+    width:0px;
 }
 .logoBlack{
     padding-top: 0%;
     display: block;
     margin-right: 10vw;
     border-right: 10vw;
-    margin-top: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
     margin-left: 1%;
 }
 .blackLogo1{
@@ -298,7 +299,7 @@ button:hover{
 .Page4{
     border-color: black;
     background-color: black;
-    background-image: url("PinkWallpaper.png");
+    background-image: url("pinkWallpaper.png");
     background-position: 0%;
     background-origin:border-box ;
     background-position-x: center ;
@@ -534,7 +535,7 @@ button:hover{
 
 .verticleLinePink5{
 
-        margin-left:4.8125vw;
+        margin-left:4.85vw;
         padding-top: 3.125vw;
         margin-top: 11.12vw;
         border-width: 3px;
@@ -646,7 +647,7 @@ button:hover{
     border-color: rgb(255, 255, 255);
     background-color: white;
     height: 52vw;
-    background-image: url("WhiteArt1.png");
+    background-image: url("whiteArt1.png");
     background-position: 0%;
     background-origin:border-box ;
     background-position-x: center ;
@@ -784,10 +785,10 @@ button:hover{
 
 
 .rights6{
-    font-size: 0.7vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    margin-left: 43.5%;
+    font-size: 0.8vw;
+    margin-top: 0.7vw;
+    margin-bottom: 0.7vw;
+    margin-left: 42%;
     font-weight: 500;
 }
 
@@ -800,6 +801,10 @@ button:hover{
     
     h1,p,button,li,h3{
         font-family: 'Noto Sans Miao', sans-serif;
+    }
+    
+    img{
+        width:0px;
     }
   
     .logoBlack{
@@ -848,6 +853,7 @@ button:hover{
     }
     
 
+
     .R1{
         padding-top:5vw;
         padding-left:0.21vw;
@@ -874,6 +880,15 @@ button:hover{
         overflow: hidden;
         z-index: 1;
         transition: transform 0.3s ease-in-out;
+        
+           -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     -webkit-tap-highlight-color: transparent;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+      user-select: none;
+    
     }
 
     
@@ -940,6 +955,15 @@ button:hover{
     .pinkButton12{
         margin-top: 5%;
         margin-left: 30vw;
+       -webkit-tap-highlight-color: rgba(0,0,0,0);
+        -webkit-tap-highlight-color: transparent;
+         -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
     }
 
     .top1{
@@ -949,7 +973,7 @@ button:hover{
 
     .midText1{
         position:absolute;
-        padding-top: 91%;
+        top: 91vw;
         padding-left: 8.8vw;
         display: inline;
         width: 75%;
@@ -1125,7 +1149,7 @@ button:hover{
 
     .verticleLinePink3{
     
-            margin-left: 0.25vw;
+            margin-left: 0.2vw;
             padding-top: 50px;
             margin-top: 60vw;
             border-width: 2px;
@@ -1417,10 +1441,10 @@ button:hover{
     }
 
     .verticleLinePink5 {
-        margin-left: 5.7vw; 
+        margin-left: 5.95vw; 
         padding-top: 10.87vw;
         margin-top: 39.13vw; 
-        border-width: 2; 
+        border-width: 2px; 
         height: 4.348vw; 
         width: 0;
         color: #b40060;
@@ -1581,15 +1605,22 @@ button:hover{
     
     .email6,.no6,.no62,.loc6,.site6{
         color:white;
-        height: 0.25vw;
+        height: 3vw;
         font-size: 2vw;
     }
+    
+    
     
     .Mail,.phone1,.phone2,.location,.earth{
         display: flex;
         align-items: center;
         justify-content:flex-start;
+        margin-top: 3vw;
         gap: 17px;
+    }
+    
+     .Mail{
+        margin-top: 8vw;
     }
     
     .contactMe6{

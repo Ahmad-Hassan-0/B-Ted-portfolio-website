@@ -7,8 +7,20 @@ body{
 }
 
 img{
-    width: 20vw;
+    width: 0vw;
 }
+
+ .backButton,.backButton1{
+        color:transparent;
+        background-color:transparent ;
+        border-width:0;
+         padding-right:0vw
+    }
+    
+    .backButton1{
+        padding-left:0vw
+    }
+    
 
 .whiteLogo{
     width:3.6vw;
@@ -45,7 +57,7 @@ img{
 }
 
 .back{
-    margin-top: 0.7vw;
+    margin-top: 1vw;
     font-style: normal;
     text-decoration: none;
     color: white;
@@ -253,7 +265,7 @@ footer{
     }
     
     img{
-        width: 55vw;
+        width: 0vw;
     }
     
     .whiteLogo{
@@ -422,28 +434,31 @@ footer{
         font-family: 'Noto Sans';
       }
       
-    .button{
-        background-color:#ED007F;
-            color: white;
-            margin: 0px;
-            padding-left: 3.5vw;
-            padding-top: 1vw;
-            padding-bottom: 1vw;
-            padding-right: 3.5vw;
-            text-align: center;
-            border-width: 0.2vw;
-            font-size: 2.8vw;
-            border-radius: 1000px 0px;
-            border-color: #ED007F;
-            border-style:solid;
-            font-weight: 700;
-            cursor: pointer;
-            overflow: hidden;
-            z-index: 1;
-            margin-left: 26vw;
-            margin-top: 4vw;
-            transition: transform 0.3s ease-in-out;
-        }
+    .button {
+  background-color: #ED007F;
+  color: white;
+  margin: 0;
+  padding-left: 3.5vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-right: 3.5vw;
+  text-align: center;
+  border-width: 0.2vw;
+  font-size: 2.8vw;
+  -webkit-border-radius: 1000px 0;
+  border-radius: 1000px 0;
+  border-color: #ED007F;
+  border-style: solid;
+  font-weight: 700;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  margin-left: 26vw;
+  margin-top: 4vw;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
         
         
     .button:hover{
@@ -494,6 +509,9 @@ footer{
         /* left:0vw ; */
         position: absolute;
     }
+    
+   
+    
     
 
 }

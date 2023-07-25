@@ -4,8 +4,9 @@
 
 
 <head>
+    <title>Contact Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Whitelogo.png" type="image/icon type">
+    <link rel="icon" href="whitelogo.png" type="image/icon type">
     <link rel="stylesheet" href="contactMeCss.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +28,6 @@
        
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    
 </head>
 
 
@@ -36,15 +36,20 @@
 </div>
 
 <div class="topBar">
-    <a href="javascript:history.go(-1)"> <img class="backArrow" src="Back.png"> </a>
-    <a href="javascript:history.go(-1)"> <p class="back">Back</p> </a>
-    <img class="whiteLogo" src="Whitelogo.png">
+   <button class="backButton" onclick="history.go(-1)">
+  <img class="backArrow" src="back.png">
+</button>
+<button class="backButton1" onclick="history.go(-1)">
+  <p class="back">Back</p>
+</button>
+
+    <img class="whiteLogo" src="whitelogo.png">
     <p class="bted">B-Ted</p>
-    <img class="whiteR" src="WhiteR.png">
+    <img class="whiteR" src="whiteR.png">
 </div>
 
 <div class=stripeBox>
-<img class="stripe" src="stripe.png">
+<img class="stripe" src="Stripe.png">
 </div>
 
 <div class="tagLine">
@@ -63,6 +68,7 @@
         <input type="email" id="email" name="email" class="emailBar" placeholder="Email" required>
         <input type="text" id="message" name="message" class="messageBar" placeholder="Hi Ahmad, I wanted to tell you that..." required>
         <input type="submit" id="drawButton" class="button" value="submit" >
+        
     </form>
 </div>
 

@@ -7,8 +7,13 @@ body{
     color: white;
 }
 
+img{
+  width: 0vw;
+}
+
 pre{
-    padding-top: 3%;
+    position:absolute;
+    top: -8vw;
     display: inline-block;
     width: 40vw;
     font-family: 'Fira Code', monospace;
@@ -17,17 +22,17 @@ pre{
 }
 
 .rightBox{
-    width: 48vw;
+    width: 45vw;
     position: absolute;
     padding-top: 4%;
     display: inline-block;
-    margin-left: 8vw;
+    margin-left: 51vw;
 
 }
 
 .title{
     font-size: 2.2vw;
-    margin-bottom: 1vw;
+    margin-bottom: 0.5vw;
     margin-top: 0vw;
 }
 
@@ -49,7 +54,7 @@ form{
 
 .firstNameBox,.lastNameBox,.emailBox,.projectTypeBox,.estimatedTimeBox,.budgetBox,.projectDescriptionBox{
     font-size: 1.2vw;
-    width:45%;
+    width:22vw;
 }
 
 .projectDescriptionBox{
@@ -115,9 +120,9 @@ width: 100%;
 }
 
 footer{
-    
+    position:absolute;
     font-family: 'Noto Sans Miao';
-    margin-top: 5vw;
+    top: 50vw;
     margin-left: 39vw;
     font-size: 1vw;
     letter-spacing: 90%;
@@ -149,7 +154,9 @@ footer{
 }
 
 
-
+.title1{
+  display: none;
+}
 
 
 
@@ -172,6 +179,9 @@ footer{
   @media (max-width: 600px) {
 
 
+    img{
+      width: 0vw;
+    }
 
     body{
         color: black;
@@ -205,7 +215,18 @@ footer{
       width: 50%;
     } */
   
+
+    .title1{
+      left: 5.25vw;
+      display: inline-block;
+      position: absolute;
+      font-size: 7.2vw;
+      margin-bottom: 1vw;
+      margin-top: 9.9vw;
+    }
+
     pre{
+
         position: absolute;
         padding-top: 7vw;
         display: inline-block;
@@ -213,6 +234,7 @@ footer{
         font-size: 2.7vw;
         line-height: 2.2vh;
         left:3vw;
+
     }
   
     .rightBox {
@@ -225,12 +247,14 @@ footer{
     }
     
     pre.show {
-        padding-top: 7vw;
-        display: inline-block;
-        font-family: 'Fira Code', monospace;
-        font-size: 2.7vw;
-        line-height: 2.1vh;
-        left:3vw;
+      position: absolute;
+      padding-top: 7vw;
+      display: inline-block;
+      font-family: 'Fira Code', monospace;
+      font-size: 2.7vw;
+      line-height: 2.2vh;
+      left:3vw;
+
     }
   
     .rightBox.show {
@@ -248,6 +272,13 @@ footer{
         margin-top: 0vw;
       }
       
+
+      .title {
+        font-size: 7.2vw;
+        margin-bottom: 1vw;
+        margin-top: 0vw;
+      }
+
       .rightBox.show .firstName,
       .rightBox.show .lastName,
       .rightBox.show .email,
@@ -325,30 +356,31 @@ footer{
         accent-color: #C30068;
         cursor: pointer;
       }
-      
       .rightBox.show .submitButton {
-        padding-left: 4.5vw;
-        padding-top: 1.4vw;
-        position: absolute;
-        padding-bottom: 1.4vw;
-        padding-right: 4.5vw;
-        border-width: 0.2vw;
-        font-size: 3.2vw;
-        border-radius: 1000px 0px;
-        border-color: #a8005a;
-        border-style: solid;
-        font-weight: 700;
-        cursor: pointer;
-        overflow: hidden;
-        z-index: 1;
-        transition: transform 0.3s ease-in-out;
-        background-color: #b40060;
-        color: #ffffff;
-        font-family: 'Noto Sans Miao';
-        top: 145vw;
-        left: 29.8vw;
-      }
-      
+  padding-left: 4.5vw;
+  padding-top: 1.4vw;
+  position: absolute;
+  padding-bottom: 1.4vw;
+  padding-right: 4.5vw;
+  border-width: 0.2vw;
+  font-size: 3.2vw;
+  -webkit-border-radius: 1000px 0;
+  border-radius: 1000px 0;
+  border-color: #a8005a;
+  border-style: solid;
+  font-weight: 700;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  background-color: #b40060;
+  color: #ffffff;
+  font-family: 'Noto Sans Miao';
+  top: 145vw;
+  left: 29.8vw;
+}
+
     
     footer{
         position: absolute;
@@ -384,6 +416,5 @@ footer{
         position: absolute;
         top: 10vw;
     }
-    
     
 }

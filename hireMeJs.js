@@ -1,5 +1,5 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyYFhG-yV0vNvjFb8bIRXAWjBhuti5pz2OSWkScdiWqpNRNzBlhoMGB1VjPP_Y-YLCh/exec'
-const form = document.forms['thisForm']
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxE3aTkRIDpfNBQNZxt14Syi6bDc-B-37f3Re75L59Ac_3hQH8sWNZHhkFXLpRsOHd2cA/exec'
+const form = document.forms['thisHireMeForm']
 
 form.addEventListener('submit', e => {
   e.preventDefault()
@@ -27,5 +27,5 @@ function tick(){
                 }, 2000);
     }  
     // Clear form fields
-    $("#myForm")[0].reset();    
+    $("#myHireMeForm")[0].reset();    
 }
