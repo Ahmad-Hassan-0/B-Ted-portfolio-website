@@ -3,7 +3,7 @@ body{
     margin: 0px;
     width: 100%;
 }
-h1,p,button,li,h3{
+h1,p,button,li,h3,a{
     font-family: 'Noto Sans Miao';
 }
 img{
@@ -712,15 +712,18 @@ button:hover{
 
 .email6,.no6,.no62,.loc6,.site6{
     color:white;
-    height: 0.7vw;
+    margin-top: 0;
+    margin-bottom: 0;
     font-size:1vw;
+    height: 100%;
+    /*margin-left:1vw;*/
 }
 
 .Mail,.phone1,.phone2,.location,.earth{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content:flex-start;
-    gap:2px;
+    gap:1.5vw;
 }
 
 .contactMe6{
@@ -1607,6 +1610,7 @@ button:hover{
         color:white;
         height: 3vw;
         font-size: 2vw;
+        margin-left:0vw;
     }
     
     
@@ -1616,7 +1620,7 @@ button:hover{
         align-items: center;
         justify-content:flex-start;
         margin-top: 3vw;
-        gap: 17px;
+        gap: 4vw;
     }
     
      .Mail{
